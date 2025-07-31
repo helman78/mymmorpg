@@ -1,0 +1,45 @@
+2025-07-31 11:45:01,982 [ 1] INFO  Unity: LoadingManager start
+2025-07-31 11:45:04,016 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2025-07-31 11:45:05,011 [ 1] INFO  Unity: DataManager > DataManager()
+2025-07-31 11:45:23,529 [ 1] INFO  Unity: UserLoginRequest::user:user001,psw:user001
+2025-07-31 11:45:23,530 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-07-31 11:45:23,533 [ 1] INFO  Unity: DoConnect
+2025-07-31 11:45:23,534 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-07-31 11:45:23,536 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2025-07-31 11:45:23,539 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-07-31 11:45:25,223 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2025-07-31 11:45:25,225 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-07-31 11:45:25,392 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-31 11:45:26,337 [ 1] INFO  Unity: Select Char:[1]¼ýÊÖA[Archer]
+2025-07-31 11:45:26,842 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2025-07-31 11:45:26,955 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-31 11:45:26,957 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:200]
+2025-07-31 11:45:26,958 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:100]
+2025-07-31 11:45:26,958 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
+2025-07-31 11:45:26,958 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:120]
+2025-07-31 11:45:26,960 [ 1] ERROR Unity: Message handler exception:, Array index is out of range., Assembly-CSharp,   at Managers.BagManager.Reset () [0x00096] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Managers\BagManager.cs:46 
+  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Managers\BagManager.cs:28 
+  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00065] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Services\UserService.cs:217 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-31 11:45:26,961 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:46)
+Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:28)
+Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:217)
+Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg)
+}</args></log4net.Error>
+2025-07-31 11:45:26,967 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-31 11:45:26,968 [ 1] INFO  Unity: AddCharacter:1:¼ýÊÖA Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-31 11:45:26,970 [ 1] INFO  Unity: LoadLevel: MainCity
+2025-07-31 11:45:27,261 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2025-07-31 11:45:27,351 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-31 12:19:18,603 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-07-31 12:19:18,604 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+
+2025-07-31 12:19:18,610 [ 1] INFO  Unity: Character_1_¼ýÊÖA OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 

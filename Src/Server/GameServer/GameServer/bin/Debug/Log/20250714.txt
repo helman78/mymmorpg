@@ -1,0 +1,147 @@
+
+2025-07-14 19:23:11,071 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-14 19:23:11,202 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-14 19:23:11,267 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:23:11,267 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:23:11,268 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:23:11,267 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:23:11,268 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:23:11,267 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:23:11,268 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:23:11,267 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:23:11,311 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-14 19:25:38,205 [3] [WARN ] [GameServer] ：Client[127.0.0.1:11210]] Connected
+2025-07-14 19:25:38,240 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-14 19:25:38,314 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-14 19:30:13,160 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-07-14 19:47:01,383 [17] [WARN ] [GameServer] ：Client[127.0.0.1:14697]] Connected
+2025-07-14 19:47:01,422 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-14 19:47:01,423 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-14 19:47:20,102 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2025-07-14 19:48:28,784 [17] [WARN ] [GameServer] ：Client[127.0.0.1:14862]] Connected
+2025-07-14 19:48:28,824 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-14 19:48:28,824 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-14 19:48:31,387 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2025-07-14 19:48:31,390 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:user123 Class:Warrior
+2025-07-14 19:50:51,244 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.UpdateException: “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.RelationshipConstraintValidator.ValidateConstraints()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges(), “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnCreateChar(NetConnection`1 sender, UserCreateCharacterRequest request)
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-07-14 19:50:57,835 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-14 19:50:57,970 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-14 19:50:58,041 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:50:58,041 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:50:58,041 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:50:58,041 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:50:58,041 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:50:58,041 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:50:58,041 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:50:58,041 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 19:50:58,107 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-14 19:50:58,203 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1712]] Connected
+2025-07-14 19:51:00,504 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-07-14 19:51:08,868 [3] [WARN ] [GameServer] ：Client[127.0.0.1:1780]] Connected
+2025-07-14 19:51:08,907 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-14 19:51:08,976 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-14 19:51:13,823 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2025-07-14 19:51:13,825 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:user123 Class:Warrior
+2025-07-14 19:51:13,939 [6] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.UpdateException: “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.RelationshipConstraintValidator.ValidateConstraints()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges(), “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnCreateChar(NetConnection`1 sender, UserCreateCharacterRequest request) 位置 D:\MyProject\Unity Projects\mymmorpg\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 115
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-07-14 19:51:35,532 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-07-14 22:20:07,359 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-14 22:20:07,498 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-14 22:20:07,566 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:20:07,566 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:20:07,566 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:20:07,566 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:20:07,566 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:20:07,566 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:20:07,566 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:20:07,566 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:20:07,609 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-14 22:20:17,385 [3] [WARN ] [GameServer] ：Client[127.0.0.1:11565]] Connected
+2025-07-14 22:20:17,424 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-14 22:20:17,503 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-14 22:20:28,313 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2025-07-14 22:20:28,315 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:user123 Class:Warrior
+2025-07-14 22:20:28,460 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.UpdateException: “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.RelationshipConstraintValidator.ValidateConstraints()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges(), “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnCreateChar(NetConnection`1 sender, UserCreateCharacterRequest request) 位置 D:\MyProject\Unity Projects\mymmorpg\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 115
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-07-14 22:23:54,542 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-14 22:23:54,700 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-14 22:23:54,765 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:23:54,765 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:23:54,765 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:23:54,765 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:23:54,765 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:23:54,765 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:23:54,765 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:23:54,767 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:23:54,806 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-14 22:24:06,068 [3] [WARN ] [GameServer] ：Client[127.0.0.1:12108]] Connected
+2025-07-14 22:24:06,108 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-14 22:24:06,179 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-14 22:24:11,764 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2025-07-14 22:24:11,766 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:user123 Class:Warrior
+2025-07-14 22:24:58,745 [6] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.UpdateException: “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.RelationshipConstraintValidator.ValidateConstraints()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges(), “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnCreateChar(NetConnection`1 sender, UserCreateCharacterRequest request) 位置 D:\MyProject\Unity Projects\mymmorpg\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 115
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2025-07-14 22:32:58,951 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-14 22:32:59,086 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-14 22:32:59,110 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:32:59,110 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:32:59,111 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:32:59,111 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:32:59,111 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:32:59,113 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:32:59,114 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:32:59,114 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-14 22:32:59,192 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-14 22:33:08,105 [3] [WARN ] [GameServer] ：Client[127.0.0.1:13365]] Connected
+2025-07-14 22:33:08,148 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-14 22:33:08,217 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-14 22:33:12,864 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:19
+2025-07-14 22:33:12,866 [6] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:user123 Class:Warrior
+2025-07-14 22:34:17,823 [6] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.UpdateException: “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.RelationshipConstraintValidator.ValidateConstraints()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges(), “ExtremeWorldEntities.Characters”中的实体参与“PlayerCharacter”关系。找到 0 个相关的“Player”。应有 1 个“Player”。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnCreateChar(NetConnection`1 sender, UserCreateCharacterRequest request) 位置 D:\MyProject\Unity Projects\mymmorpg\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 115
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105

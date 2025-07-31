@@ -1,0 +1,186 @@
+2025-07-31 11:04:38,679 [ 1] INFO  Unity: LoadingManager start
+2025-07-31 11:04:40,692 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2025-07-31 11:04:41,683 [ 1] INFO  Unity: DataManager > DataManager()
+2025-07-31 11:04:45,428 [ 1] INFO  Unity: UserLoginRequest::user:user001,psw:user001
+2025-07-31 11:04:45,430 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-07-31 11:04:45,433 [ 1] INFO  Unity: DoConnect
+2025-07-31 11:04:45,434 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-07-31 11:04:45,436 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2025-07-31 11:04:45,439 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-07-31 11:04:47,045 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2025-07-31 11:04:47,046 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-07-31 11:04:47,207 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-31 11:04:47,869 [ 1] INFO  Unity: Select Char:[1]箭手A[Archer]
+2025-07-31 11:04:48,452 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2025-07-31 11:04:48,576 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-31 11:04:48,577 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:200]
+2025-07-31 11:04:48,578 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:100]
+2025-07-31 11:04:48,579 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
+2025-07-31 11:04:48,579 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:120]
+2025-07-31 11:04:48,581 [ 1] ERROR Unity: Message handler exception:, Array index is out of range., Assembly-CSharp,   at Managers.BagManager.Reset () [0x00096] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Managers\BagManager.cs:46 
+  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Managers\BagManager.cs:28 
+  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00065] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Services\UserService.cs:217 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-31 11:04:48,582 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:46)
+Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:28)
+Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:217)
+Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg)
+}</args></log4net.Error>
+2025-07-31 11:04:48,589 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-31 11:04:48,591 [ 1] INFO  Unity: AddCharacter:1:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-31 11:04:48,592 [ 1] INFO  Unity: LoadLevel: MainCity
+2025-07-31 11:04:48,850 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2025-07-31 11:04:48,936 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-31 11:04:49,542 [ 1] INFO  Unity: SetDirection:(98, -20, 0)
+2025-07-31 11:04:49,543 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(98,-20,0) SPD:0 
+2025-07-31 11:04:49,641 [ 1] INFO  Unity: SetDirection:(93, -38, 0)
+2025-07-31 11:04:49,641 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(93,-38,0) SPD:0 
+2025-07-31 11:04:49,719 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
+2025-07-31 11:04:49,720 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(85,-53,0) SPD:0 
+2025-07-31 11:04:49,740 [ 1] INFO  Unity: MoveForward
+2025-07-31 11:04:49,740 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(85,-53,0) SPD:300 
+2025-07-31 11:04:49,809 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
+2025-07-31 11:04:49,809 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5016,3988,820) DIR:(74,-67,0) SPD:300 
+2025-07-31 11:04:49,908 [ 1] INFO  Unity: SetDirection:(60, -80, 0)
+2025-07-31 11:04:49,908 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5040,3970,820) DIR:(60,-80,0) SPD:300 
+2025-07-31 11:04:50,056 [ 1] INFO  Unity: SetDirection:(44, -90, 0)
+2025-07-31 11:04:50,057 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5067,3934,820) DIR:(44,-90,0) SPD:300 
+2025-07-31 11:04:51,562 [ 1] INFO  Unity: SetPosition:(5269, 3525, 800)
+2025-07-31 11:04:51,562 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5269,3525,800) DIR:(44,-90,0) SPD:300 
+2025-07-31 11:04:53,166 [ 1] INFO  Unity: SetPosition:(5481, 3092, 800)
+2025-07-31 11:04:53,166 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5481,3092,800) DIR:(44,-90,0) SPD:300 
+2025-07-31 11:04:53,918 [ 1] INFO  Unity: SetDirection:(60, -80, 0)
+2025-07-31 11:04:53,918 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5571,2867,800) DIR:(60,-80,0) SPD:300 
+2025-07-31 11:04:54,016 [ 1] INFO  Unity: SetDirection:(75, -66, 0)
+2025-07-31 11:04:54,016 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5589,2843,800) DIR:(75,-66,0) SPD:300 
+2025-07-31 11:04:54,115 [ 1] INFO  Unity: SetDirection:(87, -49, 0)
+2025-07-31 11:04:54,116 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5613,2825,800) DIR:(87,-49,0) SPD:300 
+2025-07-31 11:04:54,215 [ 1] INFO  Unity: SetDirection:(95, -30, 0)
+2025-07-31 11:04:54,215 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5637,2813,800) DIR:(95,-30,0) SPD:300 
+2025-07-31 11:04:54,314 [ 1] INFO  Unity: SetDirection:(99, -11, 0)
+2025-07-31 11:04:54,315 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5667,2801,800) DIR:(99,-11,0) SPD:300 
+2025-07-31 11:04:54,462 [ 1] INFO  Unity: SetDirection:(100, 7, 0)
+2025-07-31 11:04:54,463 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5712,2792,800) DIR:(100,7,0) SPD:300 
+2025-07-31 11:04:55,056 [ 1] INFO  Unity: SetDirection:(99, -11, 0)
+2025-07-31 11:04:55,056 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5887,2792,800) DIR:(99,-11,0) SPD:300 
+2025-07-31 11:04:55,531 [ 1] INFO  Unity: SetPosition:(6039, 2813, 800)
+2025-07-31 11:04:55,532 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6039,2813,800) DIR:(99,-11,0) SPD:300 
+2025-07-31 11:04:57,344 [ 1] INFO  Unity: TeleporterObject: Character [箭手A] Enter Teleporter [3:主城传入点1]
+2025-07-31 11:04:57,402 [ 1] INFO  Unity: SetPosition:(6594, 2751, 800)
+2025-07-31 11:04:57,403 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6594,2751,800) DIR:(99,-11,0) SPD:300 
+2025-07-31 11:04:59,264 [ 1] INFO  Unity: SetPosition:(7145, 2690, 800)
+2025-07-31 11:04:59,264 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(7145,2690,800) DIR:(99,-11,0) SPD:300 
+2025-07-31 11:04:59,680 [ 1] INFO  Unity: TeleporterObject: Character [箭手A] Enter Teleporter [1:主城->野外]
+2025-07-31 11:04:59,681 [ 1] INFO  Unity: MapTeleporterRequest: teleporterID:1
+2025-07-31 11:04:59,701 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:1
+2025-07-31 11:04:59,702 [ 1] INFO  Unity: RemoveCharacter:1
+2025-07-31 11:04:59,703 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:1
+2025-07-31 11:04:59,704 [ 1] INFO  Unity: AddCharacter:1:箭手A Map:2 Entity:(1:pos:(2974,4003,17),dir:(100,0,0),spd:300
+2025-07-31 11:04:59,706 [ 1] INFO  Unity: LoadLevel: Map01
+2025-07-31 11:04:59,706 [ 1] INFO  Unity: Character_1_箭手A OnDestroy :ID:1 POS:(7275, 2664, 800) DIR:(99, -11, 0) SPD:300 
+2025-07-31 11:04:59,837 [ 1] INFO  Unity: MoveForward
+2025-07-31 11:04:59,837 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(2979,4003,17) DIR:(100,0,0) SPD:300 
+2025-07-31 11:04:59,951 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-31 11:05:00,017 [ 1] INFO  Unity: Stop
+2025-07-31 11:05:00,017 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3014,4003,17) DIR:(100,0,0) SPD:0 
+2025-07-31 11:05:00,018 [ 1] INFO  Unity: TeleporterObject: Character [箭手A] Enter Teleporter [6:野外传入点]
+2025-07-31 11:05:00,354 [ 1] INFO  Unity: MoveForward
+2025-07-31 11:05:00,356 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3014,4003,17) DIR:(100,0,0) SPD:300 
+2025-07-31 11:05:01,018 [ 1] INFO  Unity: SetDirection:(98, -17, 0)
+2025-07-31 11:05:01,018 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3214,4003,17) DIR:(98,-17,0) SPD:300 
+2025-07-31 11:05:01,157 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
+2025-07-31 11:05:01,157 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3254,3995,17) DIR:(94,-35,0) SPD:300 
+2025-07-31 11:05:02,880 [ 1] INFO  Unity: SetPosition:(3730, 3816, 0)
+2025-07-31 11:05:02,881 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3730,3816,0) DIR:(94,-35,0) SPD:300 
+2025-07-31 11:05:04,949 [ 1] INFO  Unity: SetPosition:(4311, 3600, 0)
+2025-07-31 11:05:04,950 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4311,3600,0) DIR:(94,-35,0) SPD:300 
+2025-07-31 11:05:07,186 [ 1] INFO  Unity: SetPosition:(4943, 3365, 0)
+2025-07-31 11:05:07,187 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4943,3365,0) DIR:(94,-35,0) SPD:300 
+2025-07-31 11:05:09,305 [ 1] INFO  Unity: SetDirection:(86, -52, 0)
+2025-07-31 11:05:09,305 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5578,3111,0) DIR:(86,-52,0) SPD:300 
+2025-07-31 11:05:09,671 [ 1] INFO  Unity: SetPosition:(5635, 3085, 0)
+2025-07-31 11:05:09,671 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5635,3085,0) DIR:(86,-52,0) SPD:300 
+2025-07-31 11:05:10,879 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
+2025-07-31 11:05:10,880 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5923,2869,0) DIR:(74,-67,0) SPD:300 
+2025-07-31 11:05:12,661 [ 1] INFO  Unity: SetDirection:(86, -51, 0)
+2025-07-31 11:05:12,662 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6351,2548,0) DIR:(86,-51,0) SPD:300 
+2025-07-31 11:05:12,759 [ 1] INFO  Unity: SetDirection:(95, -33, 0)
+2025-07-31 11:05:12,760 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6375,2530,0) DIR:(95,-33,0) SPD:300 
+2025-07-31 11:05:12,908 [ 1] INFO  Unity: SetDirection:(99, -15, 0)
+2025-07-31 11:05:12,908 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6420,2512,0) DIR:(99,-15,0) SPD:300 
+2025-07-31 11:05:13,314 [ 1] INFO  Unity: Stop
+2025-07-31 11:05:13,315 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6540,2488,0) DIR:(99,-15,0) SPD:0 
+2025-07-31 11:05:13,601 [ 1] INFO  Unity: MoveForward
+2025-07-31 11:05:13,602 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6540,2488,0) DIR:(99,-15,0) SPD:300 
+2025-07-31 11:05:13,602 [ 1] INFO  Unity: SetDirection:(100, 2, 0)
+2025-07-31 11:05:13,602 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6540,2488,0) DIR:(100,2,0) SPD:300 
+2025-07-31 11:05:13,710 [ 1] INFO  Unity: SetDirection:(98, 21, 0)
+2025-07-31 11:05:13,710 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6575,2488,0) DIR:(98,21,0) SPD:300 
+2025-07-31 11:05:13,799 [ 1] INFO  Unity: SetDirection:(93, 38, 0)
+2025-07-31 11:05:13,800 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6600,2493,0) DIR:(93,38,0) SPD:300 
+2025-07-31 11:05:13,879 [ 1] INFO  Unity: SetDirection:(85, 53, 0)
+2025-07-31 11:05:13,879 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6625,2503,0) DIR:(85,53,0) SPD:300 
+2025-07-31 11:05:13,967 [ 1] INFO  Unity: SetDirection:(74, 67, 0)
+2025-07-31 11:05:13,968 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6645,2518,0) DIR:(74,67,0) SPD:300 
+2025-07-31 11:05:14,047 [ 1] INFO  Unity: SetDirection:(61, 79, 0)
+2025-07-31 11:05:14,047 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6665,2533,0) DIR:(61,79,0) SPD:300 
+2025-07-31 11:05:14,146 [ 1] INFO  Unity: SetDirection:(43, 90, 0)
+2025-07-31 11:05:14,146 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6683,2557,0) DIR:(43,90,0) SPD:300 
+2025-07-31 11:05:14,196 [ 1] INFO  Unity: SetPosition:(6658, 2532, 0)
+2025-07-31 11:05:14,196 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6658,2532,0) DIR:(43,90,0) SPD:300 
+2025-07-31 11:05:14,245 [ 1] INFO  Unity: SetDirection:(27, 96, 0)
+2025-07-31 11:05:14,246 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6664,2547,0) DIR:(27,96,0) SPD:300 
+2025-07-31 11:05:14,384 [ 1] INFO  Unity: SetPosition:(6664, 2536, 0)
+2025-07-31 11:05:14,385 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6664,2536,0) DIR:(27,96,0) SPD:300 
+2025-07-31 11:05:14,562 [ 1] INFO  Unity: SetPosition:(6671, 2539, 0)
+2025-07-31 11:05:14,563 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6671,2539,0) DIR:(27,96,0) SPD:300 
+2025-07-31 11:05:14,770 [ 1] INFO  Unity: SetPosition:(6684, 2547, 0)
+2025-07-31 11:05:14,770 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6684,2547,0) DIR:(27,96,0) SPD:300 
+2025-07-31 11:05:14,968 [ 1] INFO  Unity: SetDirection:(9, 100, 0)
+2025-07-31 11:05:14,968 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6696,2607,0) DIR:(9,100,0) SPD:300 
+2025-07-31 11:05:15,018 [ 1] INFO  Unity: SetPosition:(6706, 2569, 0)
+2025-07-31 11:05:15,019 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6706,2569,0) DIR:(9,100,0) SPD:300 
+2025-07-31 11:05:15,146 [ 1] INFO  Unity: SetDirection:(-9, 100, 0)
+2025-07-31 11:05:15,146 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6706,2609,0) DIR:(-9,100,0) SPD:300 
+2025-07-31 11:05:15,254 [ 1] INFO  Unity: SetDirection:(-27, 96, 0)
+2025-07-31 11:05:15,254 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6706,2639,0) DIR:(-27,96,0) SPD:300 
+2025-07-31 11:05:15,314 [ 1] INFO  Unity: SetPosition:(6723, 2612, 0)
+2025-07-31 11:05:15,315 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6723,2612,0) DIR:(-27,96,0) SPD:300 
+2025-07-31 11:05:15,334 [ 1] INFO  Unity: SetDirection:(-43, 90, 0)
+2025-07-31 11:05:15,334 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6722,2617,0) DIR:(-43,90,0) SPD:300 
+2025-07-31 11:05:15,413 [ 1] INFO  Unity: SetDirection:(-58, 81, 0)
+2025-07-31 11:05:15,414 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6712,2642,0) DIR:(-58,81,0) SPD:300 
+2025-07-31 11:05:15,532 [ 1] INFO  Unity: SetDirection:(-72, 70, 0)
+2025-07-31 11:05:15,532 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6691,2670,0) DIR:(-72,70,0) SPD:300 
+2025-07-31 11:05:15,571 [ 1] INFO  Unity: SetPosition:(6722, 2642, 0)
+2025-07-31 11:05:15,572 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6722,2642,0) DIR:(-72,70,0) SPD:300 
+2025-07-31 11:05:15,789 [ 1] INFO  Unity: SetPosition:(6716, 2667, 0)
+2025-07-31 11:05:15,790 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6716,2667,0) DIR:(-72,70,0) SPD:300 
+2025-07-31 11:05:16,235 [ 1] INFO  Unity: SetDirection:(-57, 82, 0)
+2025-07-31 11:05:16,235 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6608,2775,0) DIR:(-57,82,0) SPD:300 
+2025-07-31 11:05:16,334 [ 1] INFO  Unity: SetDirection:(-39, 92, 0)
+2025-07-31 11:05:16,335 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6590,2799,0) DIR:(-39,92,0) SPD:300 
+2025-07-31 11:05:16,433 [ 1] INFO  Unity: SetDirection:(-20, 98, 0)
+2025-07-31 11:05:16,433 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6578,2829,0) DIR:(-20,98,0) SPD:300 
+2025-07-31 11:05:16,571 [ 1] INFO  Unity: SetDirection:(-1, 100, 0)
+2025-07-31 11:05:16,571 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6570,2869,0) DIR:(-1,100,0) SPD:300 
+2025-07-31 11:05:18,403 [ 1] INFO  Unity: SetDirection:(16, 99, 0)
+2025-07-31 11:05:18,403 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6570,3419,0) DIR:(16,99,0) SPD:300 
+2025-07-31 11:05:18,542 [ 1] INFO  Unity: SetDirection:(33, 94, 0)
+2025-07-31 11:05:18,542 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6578,3459,0) DIR:(33,94,0) SPD:300 
+2025-07-31 11:05:20,057 [ 1] INFO  Unity: SetPosition:(6756, 3864, 0)
+2025-07-31 11:05:20,058 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6756,3864,0) DIR:(33,94,0) SPD:300 
+2025-07-31 11:05:20,126 [ 1] INFO  Unity: Stop
+2025-07-31 11:05:20,127 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(6764,3884,0) DIR:(33,94,0) SPD:0 
+2025-07-31 11:05:25,085 [ 1] INFO  Unity: Character_1_箭手A OnDestroy :ID:1 POS:(6764, 3884, 0) DIR:(33, 94, 0) SPD:0 
+2025-07-31 11:05:25,085 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-07-31 11:05:25,086 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+

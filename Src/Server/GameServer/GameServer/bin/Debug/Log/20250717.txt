@@ -1,0 +1,30 @@
+
+2025-07-17 00:34:47,806 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-17 00:34:48,036 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-07-17 00:34:48,159 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-07-17 00:34:48,162 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-07-17 00:34:48,162 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-07-17 00:34:48,162 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-07-17 00:34:48,163 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-17 00:34:48,206 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-17 00:34:48,206 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-17 00:34:48,206 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-17 00:34:48,207 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-17 00:34:48,206 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-17 00:34:48,207 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-17 00:34:48,206 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-17 00:34:48,206 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-17 00:34:48,273 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-17 00:35:02,657 [3] [WARN ] [GameServer] ：Client[127.0.0.1:2081]] Connected
+2025-07-17 00:35:02,695 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-17 00:35:02,768 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-17 00:35:17,759 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2025-07-17 00:35:17,765 [5] [INFO ] [GameServer] ：UserCreateCharacterRequest: Name:箭手 Class:Archer
+2025-07-17 00:35:37,966 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-07-17 00:36:18,141 [7] [WARN ] [GameServer] ：Client[127.0.0.1:2335]] Connected
+2025-07-17 00:36:18,182 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-17 00:36:18,183 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-17 00:36:39,122 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-07-17 00:36:39,124 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:斗士A Map:1
+2025-07-17 00:36:39,127 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-07-17 00:43:46,842 [15] [WARN ] [GameServer] ：Client[] Disconnected

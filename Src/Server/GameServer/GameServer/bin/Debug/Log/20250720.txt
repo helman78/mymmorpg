@@ -1,0 +1,84 @@
+
+2025-07-20 15:03:53,190 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-20 15:03:53,485 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-07-20 15:03:53,826 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-07-20 15:03:53,833 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-07-20 15:03:53,835 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-07-20 15:03:53,835 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-07-20 15:03:53,835 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-20 15:04:38,270 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-20 15:04:38,416 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-07-20 15:04:38,526 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-07-20 15:04:38,527 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-07-20 15:04:38,527 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-07-20 15:04:38,527 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-07-20 15:04:38,528 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-20 15:04:38,570 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:04:38,570 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:04:38,598 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:04:38,598 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:04:38,598 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:04:38,598 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:04:38,598 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:04:38,598 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:04:38,641 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-20 15:05:06,664 [4] [WARN ] [GameServer] ：Client[127.0.0.1:8206]] Connected
+2025-07-20 15:05:06,704 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-20 15:05:06,780 [6] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-20 15:05:22,987 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-07-20 15:05:22,989 [6] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:斗士A Map:1
+2025-07-20 15:05:22,993 [6] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-07-20 15:06:53,952 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2025-07-20 15:11:27,112 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-20 15:11:27,259 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-07-20 15:11:27,367 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-07-20 15:11:27,368 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-07-20 15:11:27,368 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-07-20 15:11:27,368 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-07-20 15:11:27,369 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-20 15:11:27,377 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:11:27,378 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:11:27,378 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:11:27,379 [16] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:11:27,380 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:11:27,381 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:11:27,382 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:11:27,382 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 15:11:27,478 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-20 15:11:37,052 [3] [WARN ] [GameServer] ：Client[127.0.0.1:9289]] Connected
+2025-07-20 15:11:37,094 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-20 15:11:37,163 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-20 15:12:47,890 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-07-20 15:12:47,892 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:6:斗士A Map:1
+2025-07-20 15:12:47,895 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:0
+2025-07-20 22:41:15,426 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-20 22:41:15,794 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-07-20 22:41:15,980 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:奥特兰
+2025-07-20 22:41:15,982 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-07-20 22:41:15,982 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-07-20 22:41:15,983 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-07-20 22:41:15,983 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-20 22:41:16,094 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 22:41:16,094 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 22:41:16,095 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 22:41:16,096 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 22:41:16,096 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 22:41:16,096 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 22:41:16,096 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 22:41:16,098 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-20 22:41:16,118 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-20 22:41:26,265 [3] [WARN ] [GameServer] ：Client[127.0.0.1:2559]] Connected
+2025-07-20 22:41:26,283 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-20 22:41:26,377 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-20 22:42:05,357 [1] [INFO ] [GameServer] ：Game Server Exiting...
+2025-07-20 22:42:05,411 [1] [WARN ] [GameServer] ：Stop NetService...
+2025-07-20 22:42:05,412 [1] [WARN ] [GameServer] ：Stoping Message Handler...
+2025-07-20 22:42:05,413 [5] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-07-20 22:42:05,413 [14] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-07-20 22:42:05,416 [12] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-07-20 22:42:05,416 [11] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-07-20 22:42:05,416 [7] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-07-20 22:42:05,416 [8] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-07-20 22:42:05,416 [10] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-07-20 22:42:05,416 [9] [WARN ] [GameServer] ：MessageDistribute thread end
+2025-07-20 22:42:05,519 [1] [INFO ] [GameServer] ：Game Server Exited

@@ -1,0 +1,14 @@
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\bin\Debug\Common.dll
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\bin\Debug\Common.pdb
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\bin\Debug\log4net.dll
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\bin\Debug\protobuf-net.dll
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\bin\Debug\Protocol.dll
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\bin\Debug\UnityEngine.dll
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\bin\Debug\Protocol.pdb
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\bin\Debug\log4net.xml
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\bin\Debug\protobuf-net.xml
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\obj\Debug\Common.csproj.CopyComplete
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\obj\Debug\Common.dll
+D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Common\obj\Debug\Common.pdb

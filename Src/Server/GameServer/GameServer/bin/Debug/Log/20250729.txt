@@ -1,0 +1,253 @@
+
+2025-07-29 15:14:06,931 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-29 15:14:07,249 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-07-29 15:14:07,403 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:主城
+2025-07-29 15:14:07,405 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-07-29 15:14:07,406 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-07-29 15:14:07,406 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-07-29 15:14:07,406 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:主城
+2025-07-29 15:14:07,407 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-07-29 15:14:07,407 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-07-29 15:14:07,407 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-07-29 15:14:07,407 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-29 15:14:07,477 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:14:07,477 [15] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:14:07,477 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:14:07,477 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:14:07,477 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:14:07,478 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:14:07,478 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:14:07,477 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:14:07,520 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-29 15:14:30,278 [3] [WARN ] [GameServer] ：Client[127.0.0.1:2308]] Connected
+2025-07-29 15:14:30,321 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-29 15:14:30,405 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-29 15:14:35,242 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-07-29 15:14:35,244 [7] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:14:箭手A Map:1
+2025-07-29 15:14:35,247 [7] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-07-29 15:14:54,939 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-07-29 15:14:54,943 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:MoveBack Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:-300
+2025-07-29 15:14:55,483 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2025-07-29 15:14:55,484 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:Idle Entity:(1:pos:(4835,4000,820),dir:(100,0,0),spd:0
+2025-07-29 15:14:56,888 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:14:56,890 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4835,4000,820),dir:(98,-19,0),spd:0
+2025-07-29 15:14:56,988 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:14:56,988 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4835,4000,820),dir:(93,-37,0),spd:0
+2025-07-29 15:14:57,087 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:14:57,087 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4835,4000,820),dir:(83,-55,0),spd:0
+2025-07-29 15:14:57,206 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:14:57,207 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4835,4000,820),dir:(71,-70,0),spd:0
+2025-07-29 15:14:57,294 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2025-07-29 15:14:57,295 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4835,4000,820),dir:(71,-70,0),spd:300
+2025-07-29 15:14:57,978 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:14:57,979 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4999,3836,820),dir:(83,-56,0),spd:300
+2025-07-29 15:14:58,077 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:14:58,077 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5023,3818,820),dir:(92,-38,0),spd:300
+2025-07-29 15:14:58,156 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:14:58,156 [15] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5048,3808,820),dir:(98,-22,0),spd:300
+2025-07-29 15:14:58,245 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:14:58,246 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5073,3803,820),dir:(100,-4,0),spd:300
+2025-07-29 15:14:58,343 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-07-29 15:14:58,345 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5103,3803,820),dir:(99,17,0),spd:300
+2025-07-29 15:14:58,443 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-07-29 15:14:58,443 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5133,3809,820),dir:(93,37,0),spd:300
+2025-07-29 15:14:58,543 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-07-29 15:14:58,544 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5163,3821,820),dir:(85,53,0),spd:300
+2025-07-29 15:14:58,731 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-07-29 15:14:58,732 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5207,3854,820),dir:(74,67,0),spd:300
+2025-07-29 15:14:58,760 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2025-07-29 15:14:58,761 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:Idle Entity:(1:pos:(5215,3860,820),dir:(74,67,0),spd:0
+2025-07-29 15:14:59,145 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2025-07-29 15:14:59,147 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5215,3860,820),dir:(74,67,0),spd:300
+2025-07-29 15:14:59,275 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-07-29 15:14:59,275 [15] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5247,3884,820),dir:(60,80,0),spd:300
+2025-07-29 15:14:59,384 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-07-29 15:14:59,385 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5265,3908,820),dir:(45,89,0),spd:300
+2025-07-29 15:14:59,462 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-07-29 15:14:59,463 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5275,3928,820),dir:(29,96,0),spd:300
+2025-07-29 15:14:59,542 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2025-07-29 15:14:59,542 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5280,3953,820),dir:(12,99,0),spd:300
+2025-07-29 15:14:59,631 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:14:59,631 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5285,3978,820),dir:(-6,100,0),spd:300
+2025-07-29 15:14:59,730 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:14:59,731 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5285,4008,820),dir:(-26,96,0),spd:300
+2025-07-29 15:14:59,810 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:14:59,810 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5280,4033,820),dir:(-43,90,0),spd:300
+2025-07-29 15:14:59,908 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:14:59,908 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5268,4063,820),dir:(-61,80,0),spd:300
+2025-07-29 15:15:00,018 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:00,019 [15] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5250,4087,820),dir:(-76,65,0),spd:300
+2025-07-29 15:15:00,127 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:00,128 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5222,4108,820),dir:(-86,50,0),spd:300
+2025-07-29 15:15:00,997 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:00,998 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5014,4264,820),dir:(-76,65,0),spd:300
+2025-07-29 15:15:01,998 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:01,998 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4774,4444,820),dir:(-63,78,0),spd:300
+2025-07-29 15:15:02,096 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:02,097 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4756,4468,820),dir:(-48,88,0),spd:300
+2025-07-29 15:15:02,205 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:02,206 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4744,4492,820),dir:(-30,95,0),spd:300
+2025-07-29 15:15:02,363 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:02,364 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4724,4542,820),dir:(-12,99,0),spd:300
+2025-07-29 15:15:02,621 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:02,622 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4709,4617,820),dir:(-30,95,0),spd:300
+2025-07-29 15:15:02,722 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:02,723 [15] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4697,4647,820),dir:(-47,88,0),spd:300
+2025-07-29 15:15:02,821 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:02,822 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4685,4671,820),dir:(-64,77,0),spd:300
+2025-07-29 15:15:02,901 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:02,901 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4670,4691,820),dir:(-77,64,0),spd:300
+2025-07-29 15:15:02,999 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:03,000 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4646,4709,820),dir:(-88,47,0),spd:300
+2025-07-29 15:15:03,089 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:03,090 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4626,4719,820),dir:(-95,31,0),spd:300
+2025-07-29 15:15:03,188 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:03,188 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4596,4731,820),dir:(-99,13,0),spd:300
+2025-07-29 15:15:03,534 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:03,535 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4491,4752,820),dir:(-95,31,0),spd:300
+2025-07-29 15:15:03,940 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:15:03,941 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4371,4800,820),dir:(-99,13,0),spd:300
+2025-07-29 15:15:04,020 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:15:04,021 [15] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4346,4805,820),dir:(-100,-5,0),spd:300
+2025-07-29 15:15:04,118 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:15:04,118 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4316,4805,820),dir:(-97,-26,0),spd:300
+2025-07-29 15:15:04,218 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:15:04,218 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4286,4799,820),dir:(-89,-45,0),spd:300
+2025-07-29 15:15:04,355 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:15:04,357 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4254,4783,820),dir:(-79,-61,0),spd:300
+2025-07-29 15:15:04,544 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2025-07-29 15:15:04,545 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:Idle Entity:(1:pos:(4210,4750,820),dir:(-79,-61,0),spd:0
+2025-07-29 15:16:38,503 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-07-29 15:16:38,504 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4210,4750,820),dir:(-90,-44,0),spd:0
+2025-07-29 15:16:38,522 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-07-29 15:16:38,522 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4210,4750,820),dir:(-90,-44,0),spd:300
+2025-07-29 15:16:38,601 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:16:38,602 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4185,4740,820),dir:(-97,-24,0),spd:300
+2025-07-29 15:16:38,700 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:16:38,701 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4155,4734,820),dir:(-100,-6,0),spd:300
+2025-07-29 15:16:38,919 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:38,920 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4090,4734,820),dir:(-99,12,0),spd:300
+2025-07-29 15:16:39,670 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:39,670 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3868,4733,800),dir:(-95,31,0),spd:300
+2025-07-29 15:16:39,691 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:39,691 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3863,4735,800),dir:(-95,31,0),spd:300
+2025-07-29 15:16:39,770 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:39,770 [15] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3838,4745,800),dir:(-87,49,0),spd:300
+2025-07-29 15:16:39,878 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:39,879 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3814,4757,800),dir:(-75,66,0),spd:300
+2025-07-29 15:16:39,959 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:39,959 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3794,4772,800),dir:(-62,78,0),spd:300
+2025-07-29 15:16:40,056 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:40,057 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3776,4796,800),dir:(-46,89,0),spd:300
+2025-07-29 15:16:40,195 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:40,196 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3760,4828,800),dir:(-30,95,0),spd:300
+2025-07-29 15:16:41,640 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:41,641 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3586,5263,800),dir:(-12,99,0),spd:300
+2025-07-29 15:16:41,967 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:41,968 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3615,5341,800),dir:(-12,99,0),spd:300
+2025-07-29 15:16:42,344 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:42,344 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3592,5456,800),dir:(-32,95,0),spd:300
+2025-07-29 15:16:42,434 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:42,434 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3582,5481,800),dir:(-48,88,0),spd:300
+2025-07-29 15:16:42,512 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:42,512 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3572,5501,800),dir:(-63,78,0),spd:300
+2025-07-29 15:16:42,611 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:42,611 [15] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3554,5525,800),dir:(-77,64,0),spd:300
+2025-07-29 15:16:42,749 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:42,750 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3522,5549,800),dir:(-87,49,0),spd:300
+2025-07-29 15:16:43,680 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:16:43,681 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(3298,5661,800),dir:(-77,64,0),spd:300
+2025-07-29 15:16:43,967 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-07-29 15:16:43,967 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:Idle Entity:(1:pos:(3230,5712,800),dir:(-77,64,0),spd:0
+2025-07-29 15:16:55,658 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2025-07-29 15:16:55,660 [3] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1
+2025-07-29 15:21:25,179 [1] [INFO ] [GameServer] ：Game Server Init
+2025-07-29 15:21:25,321 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2025-07-29 15:21:25,446 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:主城
+2025-07-29 15:21:25,448 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-07-29 15:21:25,448 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-07-29 15:21:25,448 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-07-29 15:21:25,449 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1:主城
+2025-07-29 15:21:25,449 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2:野外1
+2025-07-29 15:21:25,449 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3:野外2
+2025-07-29 15:21:25,450 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4:副本1
+2025-07-29 15:21:25,450 [1] [WARN ] [GameServer] ：Starting Listener...
+2025-07-29 15:21:25,480 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:21:25,480 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:21:25,480 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:21:25,480 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:21:25,511 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:21:25,511 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:21:25,511 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:21:25,511 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2025-07-29 15:21:25,571 [1] [WARN ] [GameServer] ：NetService Started
+2025-07-29 15:22:13,912 [3] [WARN ] [GameServer] ：Client[127.0.0.1:3327]] Connected
+2025-07-29 15:22:14,048 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:26
+2025-07-29 15:22:14,118 [5] [INFO ] [GameServer] ：UserLoginRequest: User:user123 Pass:user123
+2025-07-29 15:22:17,362 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2025-07-29 15:22:17,364 [5] [INFO ] [GameServer] ：UserGameEnterRequest: characterID:14:箭手A Map:1
+2025-07-29 15:22:17,368 [5] [INFO ] [GameServer] ：CharacterEnter: Map:1 characterId:1
+2025-07-29 15:22:30,927 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:22:30,930 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(98,-18,0),spd:0
+2025-07-29 15:22:31,541 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:22:31,542 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(93,-36,0),spd:0
+2025-07-29 15:22:31,659 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:22:31,660 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(84,-54,0),spd:0
+2025-07-29 15:22:31,758 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:22:31,759 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(71,-70,0),spd:0
+2025-07-29 15:22:31,857 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:22:31,857 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(55,-83,0),spd:0
+2025-07-29 15:22:31,946 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:22:31,946 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(40,-92,0),spd:0
+2025-07-29 15:22:32,026 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:22:32,026 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(23,-97,0),spd:0
+2025-07-29 15:22:32,125 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2025-07-29 15:22:32,126 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(3,-100,0),spd:0
+2025-07-29 15:22:32,214 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-07-29 15:22:32,215 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(-15,-99,0),spd:0
+2025-07-29 15:22:32,313 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-07-29 15:22:32,314 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(-35,-94,0),spd:0
+2025-07-29 15:22:32,392 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-07-29 15:22:32,392 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(-51,-86,0),spd:0
+2025-07-29 15:22:32,501 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-07-29 15:22:32,502 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(-68,-74,0),spd:0
+2025-07-29 15:22:32,601 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-07-29 15:22:32,602 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(-81,-59,0),spd:0
+2025-07-29 15:22:32,749 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2025-07-29 15:22:32,749 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(5000,4000,820),dir:(-90,-43,0),spd:0
+2025-07-29 15:22:32,969 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2025-07-29 15:22:32,969 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5000,4000,820),dir:(-90,-43,0),spd:300
+2025-07-29 15:22:32,998 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:32,998 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4990,3996,820),dir:(-81,-58,0),spd:300
+2025-07-29 15:22:33,096 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:33,098 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4966,3978,820),dir:(-70,-72,0),spd:300
+2025-07-29 15:22:33,177 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:33,178 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4946,3958,820),dir:(-56,-83,0),spd:300
+2025-07-29 15:22:33,286 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:33,287 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4928,3934,820),dir:(-38,-93,0),spd:300
+2025-07-29 15:22:33,385 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:33,386 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4916,3904,820),dir:(-20,-98,0),spd:300
+2025-07-29 15:22:33,552 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:33,553 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4906,3854,820),dir:(-3,-100,0),spd:300
+2025-07-29 15:22:34,533 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:34,533 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4906,3559,820),dir:(-21,-98,0),spd:300
+2025-07-29 15:22:34,632 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:34,632 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4900,3529,820),dir:(-39,-92,0),spd:300
+2025-07-29 15:22:34,731 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:34,732 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4888,3499,820),dir:(-56,-83,0),spd:300
+2025-07-29 15:22:34,919 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:34,920 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4855,3455,820),dir:(-70,-71,0),spd:300
+2025-07-29 15:22:35,889 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:35,890 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4623,3223,820),dir:(-82,-57,0),spd:300
+2025-07-29 15:22:35,988 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:35,988 [14] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4599,3205,820),dir:(-91,-41,0),spd:300
+2025-07-29 15:22:36,067 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:36,067 [5] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4574,3195,820),dir:(-97,-24,0),spd:300
+2025-07-29 15:22:36,167 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2025-07-29 15:22:36,168 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4544,3189,820),dir:(-100,-4,0),spd:300
+2025-07-29 15:22:36,285 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2025-07-29 15:22:36,286 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:None Entity:(1:pos:(4509,3189,820),dir:(-99,16,0),spd:300
+2025-07-29 15:22:36,503 [7] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2025-07-29 15:22:36,505 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:箭手A Entity.Id:1 Evt:Idle Entity:(1:pos:(4444,3202,820),dir:(-99,16,0),spd:0
+2025-07-29 15:22:48,458 [7] [WARN ] [GameServer] ：Client[] Disconnected
+2025-07-29 15:22:48,459 [7] [INFO ] [GameServer] ：CharacterLeave: Map:1 characterId:1

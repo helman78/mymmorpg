@@ -1,0 +1,65 @@
+2025-07-31 11:01:41,374 [ 1] INFO  Unity: LoadingManager start
+2025-07-31 11:01:43,430 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+UnityEngine.Canvas:SendWillRenderCanvases()
+
+2025-07-31 11:01:44,425 [ 1] INFO  Unity: DataManager > DataManager()
+2025-07-31 11:01:46,892 [ 1] INFO  Unity: UserLoginRequest::user:user001,psw:user001
+2025-07-31 11:01:46,893 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-07-31 11:01:46,896 [ 1] INFO  Unity: DoConnect
+2025-07-31 11:01:46,898 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-07-31 11:01:46,900 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2025-07-31 11:01:46,903 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-07-31 11:01:46,973 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2025-07-31 11:01:46,974 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-07-31 11:01:47,154 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-31 11:01:47,662 [ 1] INFO  Unity: Select Char:[1]箭手A[Archer]
+2025-07-31 11:01:48,167 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2025-07-31 11:01:48,190 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-31 11:01:48,192 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:200]
+2025-07-31 11:01:48,192 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:100]
+2025-07-31 11:01:48,193 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
+2025-07-31 11:01:48,193 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:120]
+2025-07-31 11:01:48,194 [ 1] ERROR Unity: Message handler exception:, Array index is out of range., Assembly-CSharp,   at Managers.BagManager.Reset () [0x00096] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Managers\BagManager.cs:46 
+  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Managers\BagManager.cs:28 
+  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00065] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Services\UserService.cs:217 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-31 11:01:48,195 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:46)
+Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:28)
+Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:217)
+Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg)
+}</args></log4net.Error>
+2025-07-31 11:01:48,202 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:2
+2025-07-31 11:01:48,203 [ 1] INFO  Unity: AddCharacter:3:箭手A Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-31 11:01:48,204 [ 1] INFO  Unity: AddCharacter:1:箭手A Map:1 Entity:(1:pos:(5208,3362,800),dir:(23,-97,0),spd:0
+2025-07-31 11:01:48,205 [ 1] INFO  Unity: LoadLevel: MainCity
+2025-07-31 11:01:48,479 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+
+2025-07-31 11:01:48,573 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-31 11:01:49,229 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
+2025-07-31 11:01:49,230 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:3 POS:(5000,4000,820) DIR:(98,-18,0) SPD:0 
+2025-07-31 11:01:49,327 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
+2025-07-31 11:01:49,327 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:3 POS:(5000,4000,820) DIR:(94,-35,0) SPD:0 
+2025-07-31 11:01:49,406 [ 1] INFO  Unity: SetDirection:(86, -51, 0)
+2025-07-31 11:01:49,406 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:3 POS:(5000,4000,820) DIR:(86,-51,0) SPD:0 
+2025-07-31 11:01:49,505 [ 1] INFO  Unity: SetDirection:(74, -68, 0)
+2025-07-31 11:01:49,506 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:3 POS:(5000,4000,820) DIR:(74,-68,0) SPD:0 
+2025-07-31 11:01:49,604 [ 1] INFO  Unity: SetDirection:(59, -81, 0)
+2025-07-31 11:01:49,605 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:3 POS:(5000,4000,820) DIR:(59,-81,0) SPD:0 
+2025-07-31 11:01:49,713 [ 1] INFO  Unity: MoveForward
+2025-07-31 11:01:49,714 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:3 POS:(5000,4000,820) DIR:(59,-81,0) SPD:300 
+2025-07-31 11:01:49,745 [ 1] INFO  Unity: SetDirection:(43, -90, 0)
+2025-07-31 11:01:49,745 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:3 POS:(5006,3992,820) DIR:(43,-90,0) SPD:300 
+2025-07-31 11:01:51,328 [ 1] INFO  Unity: SetPosition:(5214, 3560, 800)
+2025-07-31 11:01:51,329 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:3 POS:(5214,3560,800) DIR:(43,-90,0) SPD:300 
+2025-07-31 11:01:51,467 [ 1] INFO  Unity: Stop
+2025-07-31 11:01:51,467 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:3 POS:(5230,3520,800) DIR:(43,-90,0) SPD:0 
+2025-07-31 11:01:51,618 [ 1] INFO  Unity: Character_3_箭手A OnDestroy :ID:3 POS:(5230, 3520, 800) DIR:(43, -90, 0) SPD:0 
+2025-07-31 11:01:51,619 [ 1] INFO  Unity: Character_1_箭手A OnDestroy :ID:1 POS:(5208, 3362, 800) DIR:(23, -97, 0) SPD:0 
+2025-07-31 11:01:51,619 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-07-31 11:01:51,620 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+

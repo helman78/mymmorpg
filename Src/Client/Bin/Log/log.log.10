@@ -1,0 +1,487 @@
+2025-07-24 12:18:10,992 [ 1] INFO  Unity: LoadingManager start
+2025-07-24 12:18:13,790 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+
+2025-07-24 12:18:14,798 [ 1] INFO  Unity: DataManager > DataManager()
+2025-07-24 12:18:27,273 [ 1] INFO  Unity: UserLoginRequest::user:user123,psw:user123
+2025-07-24 12:18:27,274 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-07-24 12:18:27,275 [ 1] INFO  Unity: DoConnect
+2025-07-24 12:18:27,276 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-07-24 12:18:27,276 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+
+2025-07-24 12:18:27,280 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-07-24 12:18:28,843 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2025-07-24 12:18:28,844 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-07-24 12:18:28,940 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-24 12:18:29,869 [ 1] INFO  Unity: Select Char:[14]箭手A[Archer]
+2025-07-24 12:18:31,009 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2025-07-24 12:18:31,030 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:18:31,030 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:18:31,031 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:18:31,032 [ 1] INFO  Unity: LoadLevel: MainCity
+2025-07-24 12:18:31,383 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-24 12:18:32,229 [ 1] INFO  Unity: SetDirection:(98, -19, 0)
+2025-07-24 12:18:32,259 [ 1] INFO  Unity: MoveForward
+2025-07-24 12:18:32,348 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2025-07-24 12:18:33,928 [ 1] INFO  Unity: SetDirection:(85, -53, 0)
+2025-07-24 12:18:34,809 [ 1] INFO  Unity: SetPosition:(5653, 3699, 800)
+2025-07-24 12:18:34,999 [ 1] INFO  Unity: SetPosition:(5653, 3699, 800)
+2025-07-24 12:18:35,178 [ 1] INFO  Unity: SetPosition:(5653, 3699, 800)
+2025-07-24 12:18:35,348 [ 1] INFO  Unity: SetPosition:(5652, 3699, 800)
+2025-07-24 12:18:35,378 [ 1] INFO  Unity: SetDirection:(74, -67, 0)
+2025-07-24 12:18:35,628 [ 1] INFO  Unity: SetPosition:(5652, 3699, 800)
+2025-07-24 12:18:35,809 [ 1] INFO  Unity: SetPosition:(5652, 3699, 800)
+2025-07-24 12:18:35,999 [ 1] INFO  Unity: SetPosition:(5652, 3699, 800)
+2025-07-24 12:18:36,168 [ 1] INFO  Unity: SetDirection:(61, -79, 0)
+2025-07-24 12:18:36,178 [ 1] INFO  Unity: SetPosition:(5652, 3699, 800)
+2025-07-24 12:18:36,299 [ 1] INFO  Unity: SetDirection:(44, -90, 0)
+2025-07-24 12:18:36,371 [ 1] INFO  Unity: SetPosition:(5650, 3694, 800)
+2025-07-24 12:18:36,398 [ 1] INFO  Unity: SetDirection:(25, -97, 0)
+2025-07-24 12:18:36,479 [ 1] INFO  Unity: SetDirection:(8, -100, 0)
+2025-07-24 12:18:36,578 [ 1] INFO  Unity: SetDirection:(-11, -99, 0)
+2025-07-24 12:18:36,748 [ 1] INFO  Unity: SetDirection:(-28, -96, 0)
+2025-07-24 12:18:37,019 [ 1] INFO  Unity: SetDirection:(-11, -99, 0)
+2025-07-24 12:18:37,119 [ 1] INFO  Unity: SetDirection:(8, -100, 0)
+2025-07-24 12:18:37,218 [ 1] INFO  Unity: SetDirection:(28, -96, 0)
+2025-07-24 12:18:37,298 [ 1] INFO  Unity: SetDirection:(44, -90, 0)
+2025-07-24 12:18:37,378 [ 1] INFO  Unity: SetDirection:(59, -81, 0)
+2025-07-24 12:18:37,379 [ 1] INFO  Unity: SetPosition:(5630, 3441, 800)
+2025-07-24 12:18:37,468 [ 1] INFO  Unity: SetDirection:(72, -69, 0)
+2025-07-24 12:18:37,548 [ 1] INFO  Unity: SetDirection:(83, -55, 0)
+2025-07-24 12:18:37,570 [ 1] INFO  Unity: SetPosition:(5630, 3441, 800)
+2025-07-24 12:18:37,598 [ 1] INFO  Unity: Stop
+2025-07-24 12:18:37,648 [ 1] INFO  Unity: SetDirection:(93, -37, 0)
+2025-07-24 12:18:37,718 [ 1] INFO  Unity: MoveForward
+2025-07-24 12:18:37,728 [ 1] INFO  Unity: SetDirection:(98, -20, 0)
+2025-07-24 12:18:37,829 [ 1] INFO  Unity: SetDirection:(100, 1, 0)
+2025-07-24 12:18:37,849 [ 1] INFO  Unity: SetPosition:(5629, 3443, 800)
+2025-07-24 12:18:37,948 [ 1] INFO  Unity: SetDirection:(98, 19, 0)
+2025-07-24 12:18:38,040 [ 1] INFO  Unity: SetPosition:(5633, 3448, 800)
+2025-07-24 12:18:39,750 [ 1] INFO  Unity: Stop
+2025-07-24 12:18:54,328 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:18:54,328 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:02,770 [ 1] INFO  Unity: SetDirection:(93, 36, 0)
+2025-07-24 12:19:02,868 [ 1] INFO  Unity: SetDirection:(85, 53, 0)
+2025-07-24 12:19:02,948 [ 1] INFO  Unity: SetDirection:(74, 67, 0)
+2025-07-24 12:19:03,048 [ 1] INFO  Unity: SetDirection:(59, 81, 0)
+2025-07-24 12:19:03,138 [ 1] INFO  Unity: SetDirection:(44, 90, 0)
+2025-07-24 12:19:03,218 [ 1] INFO  Unity: SetDirection:(28, 96, 0)
+2025-07-24 12:19:03,298 [ 1] INFO  Unity: SetDirection:(10, 99, 0)
+2025-07-24 12:19:03,398 [ 1] INFO  Unity: SetDirection:(-10, 99, 0)
+2025-07-24 12:19:03,489 [ 1] INFO  Unity: SetDirection:(-28, 96, 0)
+2025-07-24 12:19:03,588 [ 1] INFO  Unity: SetDirection:(-47, 88, 0)
+2025-07-24 12:19:03,689 [ 1] INFO  Unity: SetDirection:(-62, 78, 0)
+2025-07-24 12:19:04,065 [ 1] INFO  Unity: MoveForward
+2025-07-24 12:19:04,259 [ 1] INFO  Unity: SetPosition:(6047, 3613, 805)
+2025-07-24 12:19:04,459 [ 1] INFO  Unity: SetDirection:(-75, 66, 0)
+2025-07-24 12:19:04,460 [ 1] INFO  Unity: SetPosition:(6041, 3620, 804)
+2025-07-24 12:19:04,629 [ 1] INFO  Unity: SetDirection:(-86, 51, 0)
+2025-07-24 12:19:04,629 [ 1] INFO  Unity: SetPosition:(6041, 3619, 804)
+2025-07-24 12:19:04,679 [ 1] INFO  Unity: Stop
+2025-07-24 12:19:04,730 [ 1] INFO  Unity: SetDirection:(-94, 34, 0)
+2025-07-24 12:19:04,821 [ 1] INFO  Unity: SetDirection:(-99, 14, 0)
+2025-07-24 12:19:04,889 [ 1] INFO  Unity: MoveForward
+2025-07-24 12:19:04,909 [ 1] INFO  Unity: SetDirection:(-100, -4, 0)
+2025-07-24 12:19:05,009 [ 1] INFO  Unity: SetDirection:(-97, -24, 0)
+2025-07-24 12:19:05,310 [ 1] INFO  Unity: SetDirection:(-91, -41, 0)
+2025-07-24 12:19:06,649 [ 1] INFO  Unity: Stop
+2025-07-24 12:19:06,650 [ 1] INFO  Unity: SetPosition:(5584, 3434, 800)
+2025-07-24 12:19:06,679 [ 1] INFO  Unity: SetDirection:(-97, -25, 0)
+2025-07-24 12:19:06,778 [ 1] INFO  Unity: SetDirection:(-100, -4, 0)
+2025-07-24 12:19:06,878 [ 1] INFO  Unity: SetDirection:(-99, 17, 0)
+2025-07-24 12:19:06,978 [ 1] INFO  Unity: SetDirection:(-93, 37, 0)
+2025-07-24 12:19:07,438 [ 1] INFO  Unity: SetDirection:(-98, 18, 0)
+2025-07-24 12:19:07,538 [ 1] INFO  Unity: SetDirection:(-100, -1, 0)
+2025-07-24 12:19:07,811 [ 1] INFO  Unity: MoveForward
+2025-07-24 12:19:07,812 [ 1] INFO  Unity: SetDirection:(-98, -20, 0)
+2025-07-24 12:19:07,968 [ 1] INFO  Unity: SetDirection:(-93, -37, 0)
+2025-07-24 12:19:08,558 [ 1] INFO  Unity: SetDirection:(-98, -19, 0)
+2025-07-24 12:19:08,679 [ 1] INFO  Unity: Stop
+2025-07-24 12:19:08,679 [ 1] INFO  Unity: SetDirection:(-100, 1, 0)
+2025-07-24 12:19:08,760 [ 1] INFO  Unity: SetDirection:(-98, 18, 0)
+2025-07-24 12:19:08,839 [ 1] INFO  Unity: SetDirection:(-94, 35, 0)
+2025-07-24 12:19:09,069 [ 1] INFO  Unity: SetDirection:(-86, 51, 0)
+2025-07-24 12:19:10,050 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-07-24 12:19:10,051 [ 1] INFO  Unity: UserGameLeaveRequest
+2025-07-24 12:19:10,071 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:14
+2025-07-24 12:19:10,071 [ 1] INFO  Unity: RemoveCharacter:14
+2025-07-24 12:19:10,072 [ 1] INFO  Unity: RemoveCharacter:16
+2025-07-24 12:19:10,072 [ 1] INFO  Unity: OnGameLeave:Success [None]
+2025-07-24 12:19:10,073 [ 1] INFO  Unity: Character_14_箭手A OnDestroy :ID:1 POS:(5329, 3356, 800) DIR:(-86, 51, 0) SPD:0 
+2025-07-24 12:19:10,073 [ 1] INFO  Unity: Character_16_魔术技巧 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:19:10,122 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-07-24 12:19:24,569 [ 1] INFO  Unity: Select Char:[15]士B[Warrior]
+2025-07-24 12:19:25,158 [ 1] INFO  Unity: UserGameEnterRequest::characterId:1
+2025-07-24 12:19:25,178 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:25,178 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:25,178 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:25,181 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:25,184 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:25,189 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:3
+2025-07-24 12:19:25,189 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:25,189 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:25,189 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:25,190 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:26,649 [ 1] INFO  Unity: UserGameEnterRequest::characterId:1
+2025-07-24 12:19:26,668 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:26,668 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:26,668 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:26,669 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:26,670 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:26,678 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:26,678 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:26,678 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:4
+2025-07-24 12:19:26,678 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:26,679 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:26,679 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:26,680 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:26,680 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:27,438 [ 1] INFO  Unity: UserGameEnterRequest::characterId:1
+2025-07-24 12:19:27,459 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:27,459 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:27,459 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:27,459 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:27,459 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:27,468 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:27,468 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:27,468 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:27,468 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:27,468 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:5
+2025-07-24 12:19:27,468 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:27,468 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:27,469 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:27,469 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:27,469 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,009 [ 1] INFO  Unity: UserGameEnterRequest::characterId:1
+2025-07-24 12:19:28,028 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:28,028 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,028 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,029 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:28,029 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:6
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,040 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,529 [ 1] INFO  Unity: UserGameEnterRequest::characterId:1
+2025-07-24 12:19:28,549 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:28,549 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,549 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,550 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:28,550 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:28,557 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,557 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,557 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,557 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,557 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,557 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:7
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,558 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,878 [ 1] INFO  Unity: UserGameEnterRequest::characterId:1
+2025-07-24 12:19:28,898 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:28,898 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,898 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,898 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:28,899 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:8
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:28,908 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:35,131 [ 1] INFO  Unity: Select Char:[15]士B[Warrior]
+2025-07-24 12:19:36,299 [ 1] INFO  Unity: UserGameEnterRequest::characterId:1
+2025-07-24 12:19:36,318 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:36,318 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,318 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,318 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:36,318 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:36,330 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,330 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,330 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,330 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,330 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,330 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:9
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,331 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,790 [ 1] INFO  Unity: UserGameEnterRequest::characterId:1
+2025-07-24 12:19:36,809 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:36,809 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,809 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,810 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:36,810 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,818 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:10
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:36,819 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,378 [ 1] INFO  Unity: UserGameEnterRequest::characterId:1
+2025-07-24 12:19:37,399 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:37,399 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:37,399 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,400 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:37,401 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:37,408 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:11
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:37,409 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:38,428 [ 1] INFO  Unity: Select Char:[14]箭手A[Archer]
+2025-07-24 12:19:39,189 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2025-07-24 12:19:39,209 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-07-24 12:19:39,209 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,209 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,210 [ 1] ERROR Unity: Message handler exception:, Object reference not set to an instance of an object, Assembly-CSharp,   at GameObjectManager.CreateCharacterObject (Entities.Character character) [0x00000] in <filename unknown>:0 
+  at GameObjectManager.OnCharacterEnter (Entities.Character cha) [0x00000] in <filename unknown>:0 
+  at Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha) [0x00000] in <filename unknown>:0 
+  at Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response) [0x00000] in <filename unknown>:0 
+  at Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg) [0x00000] in <filename unknown>:0 
+2025-07-24 12:19:39,210 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, GameObjectManager.CreateCharacterObject (Entities.Character character)
+GameObjectManager.OnCharacterEnter (Entities.Character cha)
+Managers.CharacterManager.AddCharacter (SkillBridge.Message.NCharacterInfo cha)
+Services.MapService.OnMapCharacterEnter (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse response)
+Network.MessageDistributer`1[System.Object].RaiseEvent[MapCharacterEnterResponse] (System.Object sender, SkillBridge.Message.MapCharacterEnterResponse msg)
+}</args></log4net.Error>
+2025-07-24 12:19:39,218 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,218 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,218 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,218 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,218 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,218 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:12
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(12:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:14:箭手A Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:16:魔术技巧 Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(3:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(5:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(6:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(7:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(8:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(9:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:19:39,219 [ 1] INFO  Unity: AddCharacter:15:士B Map:1 Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-07-24 12:21:20,316 [ 1] INFO  Unity: Select Char:[15]士B[Warrior]
+2025-07-24 12:21:21,331 [ 1] INFO  Unity: Character_15_士B OnDestroy :ID:3 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_14_箭手A OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_15_士B OnDestroy :ID:4 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_16_魔术技巧 OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_15_士B OnDestroy :ID:5 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_15_士B OnDestroy :ID:6 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_15_士B OnDestroy :ID:7 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_15_士B OnDestroy :ID:8 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_15_士B OnDestroy :ID:9 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_15_士B OnDestroy :ID:10 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_15_士B OnDestroy :ID:11 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: Character_14_箭手A OnDestroy :ID:12 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
+2025-07-24 12:21:21,332 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-07-24 12:21:21,333 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+
