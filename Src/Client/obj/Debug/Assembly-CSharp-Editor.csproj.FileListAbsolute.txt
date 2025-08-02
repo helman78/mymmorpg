@@ -117,7 +117,6 @@ D:\MyProject\Unity Projects\mymmorpg\Src\Client\Temp\bin\Debug\UnityEditor.iOS.E
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\Temp\bin\Debug\Boo.Lang.Useful.dll
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\Temp\bin\Debug\Unity.CecilTools.dll
-D:\MyProject\Unity Projects\mymmorpg\Src\Client\Temp\bin\Debug\Assembly-CSharp.pdb
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\Temp\bin\Debug\UnityEngine.xml
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\Temp\bin\Debug\UnityEditor.xml
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\Temp\bin\Debug\UnityEngine.AIModule.xml

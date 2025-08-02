@@ -1,224 +1,36 @@
-2025-07-31 11:02:23,798 [ 1] INFO  Unity: LoadingManager start
-2025-07-31 11:02:25,811 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+2025-08-02 11:17:50,902 [ 1] INFO  Unity: LoadingManager start
+2025-08-02 11:17:53,084 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
 UnityEngine.Canvas:SendWillRenderCanvases()
 
-2025-07-31 11:02:26,811 [ 1] INFO  Unity: DataManager > DataManager()
-2025-07-31 11:02:30,118 [ 1] INFO  Unity: UserLoginRequest::user:user001,psw:user001
-2025-07-31 11:02:30,119 [ 1] INFO  Unity: ConnectToServer() Start 
-2025-07-31 11:02:30,122 [ 1] INFO  Unity: DoConnect
-2025-07-31 11:02:30,124 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2025-07-31 11:02:30,126 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2025-08-02 11:17:54,077 [ 1] INFO  Unity: DataManager > DataManager()
+2025-08-02 11:17:57,930 [ 1] INFO  Unity: UserRegisterRequest::user :1 psw:1
+2025-08-02 11:17:57,938 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-08-02 11:17:57,949 [ 1] INFO  Unity: DoConnect
+2025-08-02 11:17:57,950 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-08-02 11:17:57,957 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2025-07-31 11:02:30,128 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2025-07-31 11:02:30,201 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2025-07-31 11:02:30,202 [ 1] INFO  Unity: LoadLevel: CharSelect
-2025-07-31 11:02:30,359 [ 1] INFO  Unity: LevelLoadCompleted:1
-2025-07-31 11:02:31,954 [ 1] INFO  Unity: Select Char:[1]箭手A[Archer]
-2025-07-31 11:02:32,439 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
-2025-07-31 11:02:32,463 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2025-07-31 11:02:32,465 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:200]
-2025-07-31 11:02:32,465 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:100]
-2025-07-31 11:02:32,466 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
-2025-07-31 11:02:32,466 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:120]
-2025-07-31 11:02:32,468 [ 1] ERROR Unity: Message handler exception:, Array index is out of range., Assembly-CSharp,   at Managers.BagManager.Reset () [0x00096] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Managers\BagManager.cs:46 
-  at Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) [0x00075] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Managers\BagManager.cs:28 
-  at Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) [0x00065] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Services\UserService.cs:217 
-  at Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg) [0x00000] in <filename unknown>:0 
-2025-07-31 11:02:32,469 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
-{1}</format><args>{IndexOutOfRangeException: Array index is out of range., Managers.BagManager.Reset () (at Assets/Scripts/Managers/BagManager.cs:46)
-Managers.BagManager.Init (SkillBridge.Message.NBagInfo info) (at Assets/Scripts/Managers/BagManager.cs:28)
-Services.UserService.OnGameEnter (System.Object sender, SkillBridge.Message.UserGameEnterResponse response) (at Assets/Scripts/Services/UserService.cs:217)
-Network.MessageDistributer`1[System.Object].RaiseEvent[UserGameEnterResponse] (System.Object sender, SkillBridge.Message.UserGameEnterResponse msg)
-}</args></log4net.Error>
-2025-07-31 11:02:32,474 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2025-07-31 11:02:32,476 [ 1] INFO  Unity: AddCharacter:2:箭手A Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2025-07-31 11:02:32,479 [ 1] INFO  Unity: LoadLevel: MainCity
-2025-07-31 11:02:32,733 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2025-08-02 11:17:57,969 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-08-02 11:17:59,701 [ 1] INFO  Unity: OnUserRegister:Success [None]
+2025-08-02 11:18:02,289 [ 1] INFO  Unity: UserLoginRequest::user:1,psw:1
+2025-08-02 11:18:02,349 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2025-08-02 11:18:02,353 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-08-02 11:18:02,541 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-08-02 11:18:04,893 [ 1] INFO  Unity: CharCreateRequest::charName:1,charClass:Archer
+2025-08-02 11:18:04,949 [ 1] INFO  Unity: OnCharCreate:Success [None]
+2025-08-02 11:18:04,951 [ 1] INFO  Unity: OnCreate
+2025-08-02 11:18:05,918 [ 1] INFO  Unity: Select Char:[0]1[Archer]
+2025-08-02 11:18:06,403 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2025-08-02 11:18:06,512 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-08-02 11:18:13,196 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-08-02 11:18:13,202 [ 1] INFO  Unity: AddCharacter:1:1 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-08-02 11:18:13,209 [ 1] INFO  Unity: LoadLevel: MainCity
+2025-08-02 11:18:13,460 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2025-07-31 11:02:32,822 [ 1] INFO  Unity: LevelLoadCompleted:1
-2025-07-31 11:02:33,469 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2025-07-31 11:02:33,470 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(98,-18,0) SPD:0 
-2025-07-31 11:02:33,577 [ 1] INFO  Unity: SetDirection:(94, -35, 0)
-2025-07-31 11:02:33,577 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(94,-35,0) SPD:0 
-2025-07-31 11:02:33,657 [ 1] INFO  Unity: SetDirection:(86, -51, 0)
-2025-07-31 11:02:33,657 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(86,-51,0) SPD:0 
-2025-07-31 11:02:33,756 [ 1] INFO  Unity: SetDirection:(74, -68, 0)
-2025-07-31 11:02:33,756 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(74,-68,0) SPD:0 
-2025-07-31 11:02:33,845 [ 1] INFO  Unity: SetDirection:(61, -79, 0)
-2025-07-31 11:02:33,845 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(61,-79,0) SPD:0 
-2025-07-31 11:02:33,924 [ 1] INFO  Unity: SetDirection:(46, -89, 0)
-2025-07-31 11:02:33,924 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(46,-89,0) SPD:0 
-2025-07-31 11:02:34,023 [ 1] INFO  Unity: SetDirection:(27, -96, 0)
-2025-07-31 11:02:34,023 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(27,-96,0) SPD:0 
-2025-07-31 11:02:34,112 [ 1] INFO  Unity: SetDirection:(9, -100, 0)
-2025-07-31 11:02:34,113 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(9,-100,0) SPD:0 
-2025-07-31 11:02:34,211 [ 1] INFO  Unity: SetDirection:(-12, -99, 0)
-2025-07-31 11:02:34,211 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-12,-99,0) SPD:0 
-2025-07-31 11:02:34,310 [ 1] INFO  Unity: SetDirection:(-32, -95, 0)
-2025-07-31 11:02:34,310 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-32,-95,0) SPD:0 
-2025-07-31 11:02:34,409 [ 1] INFO  Unity: SetDirection:(-51, -86, 0)
-2025-07-31 11:02:34,410 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-51,-86,0) SPD:0 
-2025-07-31 11:02:34,508 [ 1] INFO  Unity: SetDirection:(-68, -74, 0)
-2025-07-31 11:02:34,509 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-68,-74,0) SPD:0 
-2025-07-31 11:02:34,607 [ 1] INFO  Unity: SetDirection:(-81, -59, 0)
-2025-07-31 11:02:34,607 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-81,-59,0) SPD:0 
-2025-07-31 11:02:35,043 [ 1] INFO  Unity: SetDirection:(-69, -73, 0)
-2025-07-31 11:02:35,043 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-69,-73,0) SPD:0 
-2025-07-31 11:02:35,122 [ 1] INFO  Unity: SetDirection:(-55, -84, 0)
-2025-07-31 11:02:35,123 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-55,-84,0) SPD:0 
-2025-07-31 11:02:35,232 [ 1] INFO  Unity: SetDirection:(-36, -93, 0)
-2025-07-31 11:02:35,233 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-36,-93,0) SPD:0 
-2025-07-31 11:02:35,479 [ 1] INFO  Unity: SetDirection:(-53, -85, 0)
-2025-07-31 11:02:35,480 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-53,-85,0) SPD:0 
-2025-07-31 11:02:35,579 [ 1] INFO  Unity: SetDirection:(-68, -74, 0)
-2025-07-31 11:02:35,579 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-68,-74,0) SPD:0 
-2025-07-31 11:02:35,816 [ 1] INFO  Unity: MoveForward
-2025-07-31 11:02:35,817 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5000,4000,820) DIR:(-68,-74,0) SPD:300 
-2025-07-31 11:02:35,896 [ 1] INFO  Unity: SetDirection:(-53, -85, 0)
-2025-07-31 11:02:35,896 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4985,3980,820) DIR:(-53,-85,0) SPD:300 
-2025-07-31 11:02:35,994 [ 1] INFO  Unity: SetDirection:(-35, -94, 0)
-2025-07-31 11:02:35,995 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4967,3956,820) DIR:(-35,-94,0) SPD:300 
-2025-07-31 11:02:36,083 [ 1] INFO  Unity: SetDirection:(-18, -98, 0)
-2025-07-31 11:02:36,084 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4957,3931,820) DIR:(-18,-98,0) SPD:300 
-2025-07-31 11:02:36,162 [ 1] INFO  Unity: SetDirection:(-1, -100, 0)
-2025-07-31 11:02:36,163 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4952,3906,820) DIR:(-1,-100,0) SPD:300 
-2025-07-31 11:02:36,242 [ 1] INFO  Unity: SetDirection:(17, -99, 0)
-2025-07-31 11:02:36,242 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4952,3881,820) DIR:(17,-99,0) SPD:300 
-2025-07-31 11:02:36,350 [ 1] INFO  Unity: SetDirection:(37, -93, 0)
-2025-07-31 11:02:36,351 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4958,3851,820) DIR:(37,-93,0) SPD:300 
-2025-07-31 11:02:36,449 [ 1] INFO  Unity: SetDirection:(55, -84, 0)
-2025-07-31 11:02:36,450 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4970,3821,820) DIR:(55,-84,0) SPD:300 
-2025-07-31 11:02:36,579 [ 1] INFO  Unity: SetDirection:(69, -73, 0)
-2025-07-31 11:02:36,579 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4994,3789,820) DIR:(69,-73,0) SPD:300 
-2025-07-31 11:02:37,251 [ 1] INFO  Unity: SetDirection:(54, -84, 0)
-2025-07-31 11:02:37,251 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5114,3629,820) DIR:(54,-84,0) SPD:300 
-2025-07-31 11:02:40,202 [ 1] INFO  Unity: SetPosition:(5605, 2897, 800)
-2025-07-31 11:02:40,202 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5605,2897,800) DIR:(54,-84,0) SPD:300 
-2025-07-31 11:02:40,350 [ 1] INFO  Unity: SetDirection:(70, -72, 0)
-2025-07-31 11:02:40,351 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5632,2861,800) DIR:(70,-72,0) SPD:300 
-2025-07-31 11:02:40,459 [ 1] INFO  Unity: SetDirection:(83, -56, 0)
-2025-07-31 11:02:40,460 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5656,2837,800) DIR:(83,-56,0) SPD:300 
-2025-07-31 11:02:40,558 [ 1] INFO  Unity: SetDirection:(92, -39, 0)
-2025-07-31 11:02:40,559 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5680,2819,800) DIR:(92,-39,0) SPD:300 
-2025-07-31 11:02:40,687 [ 1] INFO  Unity: SetDirection:(97, -22, 0)
-2025-07-31 11:02:40,687 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(5720,2803,800) DIR:(97,-22,0) SPD:300 
-2025-07-31 11:02:41,637 [ 1] INFO  Unity: SetDirection:(100, -5, 0)
-2025-07-31 11:02:41,637 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(6005,2746,800) DIR:(100,-5,0) SPD:300 
-2025-07-31 11:02:43,578 [ 1] INFO  Unity: TeleporterObject: Character [箭手A] Enter Teleporter [3:主城传入点1]
-2025-07-31 11:02:44,598 [ 1] INFO  Unity: SetPosition:(6876, 2697, 800)
-2025-07-31 11:02:44,598 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(6876,2697,800) DIR:(100,-5,0) SPD:300 
-2025-07-31 11:02:45,894 [ 1] INFO  Unity: TeleporterObject: Character [箭手A] Enter Teleporter [1:主城->野外]
-2025-07-31 11:02:45,895 [ 1] INFO  Unity: MapTeleporterRequest: teleporterID:1
-2025-07-31 11:02:45,915 [ 1] INFO  Unity: OnMapCharacterLeave: CharID:2
-2025-07-31 11:02:45,916 [ 1] INFO  Unity: RemoveCharacter:2
-2025-07-31 11:02:45,918 [ 1] INFO  Unity: OnMapCharacterEnter:Map:2 Count:1
-2025-07-31 11:02:45,919 [ 1] INFO  Unity: AddCharacter:2:箭手A Map:2 Entity:(2:pos:(2974,4003,17),dir:(100,0,0),spd:300
-2025-07-31 11:02:45,920 [ 1] INFO  Unity: LoadLevel: Map01
-2025-07-31 11:02:45,920 [ 1] INFO  Unity: Character_2_箭手A OnDestroy :ID:2 POS:(7271, 2697, 800) DIR:(100, -5, 0) SPD:300 
-2025-07-31 11:02:45,933 [ 1] INFO  Unity: MoveForward
-2025-07-31 11:02:45,934 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(2979,4003,17) DIR:(100,0,0) SPD:300 
-2025-07-31 11:02:46,057 [ 1] INFO  Unity: Stop
-2025-07-31 11:02:46,058 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(2984,4003,17) DIR:(100,0,0) SPD:0 
-2025-07-31 11:02:46,176 [ 1] INFO  Unity: LevelLoadCompleted:1
-2025-07-31 11:02:46,243 [ 1] INFO  Unity: TeleporterObject: Character [箭手A] Enter Teleporter [6:野外传入点]
-2025-07-31 11:02:47,519 [ 1] INFO  Unity: SetDirection:(98, -18, 0)
-2025-07-31 11:02:47,519 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(2984,4003,17) DIR:(98,-18,0) SPD:0 
-2025-07-31 11:02:47,618 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2025-07-31 11:02:47,618 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(2984,4003,17) DIR:(93,-36,0) SPD:0 
-2025-07-31 11:02:47,736 [ 1] INFO  Unity: SetDirection:(85, -52, 0)
-2025-07-31 11:02:47,737 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(2984,4003,17) DIR:(85,-52,0) SPD:0 
-2025-07-31 11:02:47,786 [ 1] INFO  Unity: MoveForward
-2025-07-31 11:02:47,786 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(2984,4003,17) DIR:(85,-52,0) SPD:300 
-2025-07-31 11:02:49,657 [ 1] INFO  Unity: SetPosition:(3455, 3709, 0)
-2025-07-31 11:02:49,657 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(3455,3709,0) DIR:(85,-52,0) SPD:300 
-2025-07-31 11:02:51,439 [ 1] INFO  Unity: SetPosition:(3911, 3430, 0)
-2025-07-31 11:02:51,440 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(3911,3430,0) DIR:(85,-52,0) SPD:300 
-2025-07-31 11:02:52,874 [ 1] INFO  Unity: Stop
-2025-07-31 11:02:52,875 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4255,3172,0) DIR:(85,-52,0) SPD:0 
-2025-07-31 11:02:52,895 [ 1] INFO  Unity: SetDirection:(93, -36, 0)
-2025-07-31 11:02:52,895 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:2 POS:(4255,3172,0) DIR:(93,-36,0) SPD:0 
-2025-07-31 11:04:22,301 [ 1] INFO  Unity: ProcessReceive exception:System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
-
-  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 offset, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
-  at Network.NetClient.ProcessRecv () [0x00084] in D:\MyProject\Unity Projects\mymmorpg\Src\Client\Assets\Scripts\Network\NetClient.cs:340 
-
-2025-07-31 11:04:22,302 [ 1] WARN  Unity: CloseConnection(), errorCode: 1001
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:ProcessRecv() (at Assets/Scripts/Network/NetClient.cs:354)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:434)
-
-2025-07-31 11:04:22,313 [ 1] INFO  Unity: DoConnect
-2025-07-31 11:04:22,313 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2025-07-31 11:04:22,314 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
-
-2025-07-31 11:04:24,356 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2025-07-31 11:04:24,358 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2025-07-31 11:04:24,422 [ 1] INFO  Unity: DoConnect
-2025-07-31 11:04:24,422 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2025-07-31 11:04:24,423 [ 1] INFO  Unity: Connect[1] to server 127.0.0.1:8000
-
-2025-07-31 11:04:26,460 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2025-07-31 11:04:26,461 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2025-07-31 11:04:26,481 [ 1] INFO  Unity: DoConnect
-2025-07-31 11:04:26,482 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2025-07-31 11:04:26,482 [ 1] INFO  Unity: Connect[2] to server 127.0.0.1:8000
-
-2025-07-31 11:04:28,507 [ 1] WARN  Unity: CloseConnection(), errorCode: 1005
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:274)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2025-07-31 11:04:28,508 [ 1] ERROR Unity: DoConnect SocketException:[10061,ConnectionRefused,10061]System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。
-
-  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP, Boolean requireSocketPolicy) [0x00000] in <filename unknown>:0 
-  at System.Net.Sockets.Socket+Worker.Connect () [0x00000] in <filename unknown>:0  
-UnityEngine.Debug:LogErrorFormat(String, Object[])
-Network.NetClient:DoConnect() (at Assets/Scripts/Network/NetClient.cs:276)
-Network.NetClient:Connect(Int32) (at Assets/Scripts/Network/NetClient.cs:169)
-Network.NetClient:KeepConnect() (at Assets/Scripts/Network/NetClient.cs:315)
-Network.NetClient:Update() (at Assets/Scripts/Network/NetClient.cs:432)
-
-2025-07-31 11:04:28,508 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :1 reason:Cannot connect to server
-2025-07-31 11:04:30,581 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2025-07-31 11:04:30,581 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2025-08-02 11:18:13,565 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-08-02 11:18:16,264 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-08-02 11:18:16,264 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
 
-2025-07-31 11:04:30,583 [ 1] INFO  Unity: Character_2_箭手A OnDestroy :ID:2 POS:(4255, 3172, 0) DIR:(93, -36, 0) SPD:0 
+2025-08-02 11:18:16,270 [ 1] INFO  Unity: Character_1_1 OnDestroy :ID:1 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 

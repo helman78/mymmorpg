@@ -48,6 +48,7 @@ public class UIBag : UIWindow
         {
             slots[i].color = Color.gray;
         }
+        this.money.text = User.Instance.CurrentCharacter.Gold.ToString();
         yield return null;
     }
 

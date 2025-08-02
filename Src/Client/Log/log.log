@@ -1,34 +1,76 @@
-2025-07-31 12:23:21,534 [ 1] INFO  Unity: LoadingManager start
-2025-07-31 12:23:23,560 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+2025-08-02 11:41:15,559 [ 1] INFO  Unity: LoadingManager start
+2025-08-02 11:41:17,578 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
 UnityEngine.Canvas:SendWillRenderCanvases()
 
-2025-07-31 12:23:24,546 [ 1] INFO  Unity: DataManager > DataManager()
-2025-07-31 12:23:30,994 [ 1] INFO  Unity: UserLoginRequest::user:user001,psw:user001
-2025-07-31 12:23:30,996 [ 1] INFO  Unity: ConnectToServer() Start 
-2025-07-31 12:23:30,999 [ 1] INFO  Unity: DoConnect
-2025-07-31 12:23:31,000 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2025-07-31 12:23:31,002 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2025-08-02 11:41:18,577 [ 1] INFO  Unity: DataManager > DataManager()
+2025-08-02 11:41:21,573 [ 1] INFO  Unity: UserLoginRequest::user:1,psw:1
+2025-08-02 11:41:21,575 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-08-02 11:41:21,578 [ 1] INFO  Unity: DoConnect
+2025-08-02 11:41:21,579 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-08-02 11:41:21,582 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2025-07-31 12:23:31,005 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2025-07-31 12:23:31,075 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2025-07-31 12:23:31,076 [ 1] INFO  Unity: LoadLevel: CharSelect
-2025-07-31 12:23:31,316 [ 1] INFO  Unity: LevelLoadCompleted:1
-2025-07-31 12:23:32,000 [ 1] INFO  Unity: Select Char:[1]¼ýÊÖA[Archer]
-2025-07-31 12:23:32,406 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
-2025-07-31 12:23:32,429 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2025-07-31 12:23:32,431 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:200]
-2025-07-31 12:23:32,431 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:100]
-2025-07-31 12:23:32,432 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
-2025-07-31 12:23:32,432 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:120]
-2025-07-31 12:23:32,434 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2025-07-31 12:23:32,435 [ 1] INFO  Unity: AddCharacter:2:¼ýÊÖA Map:1 Entity:(2:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2025-07-31 12:23:32,437 [ 1] INFO  Unity: LoadLevel: MainCity
-2025-07-31 12:23:32,822 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2025-08-02 11:41:21,584 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-08-02 11:41:21,655 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2025-08-02 11:41:21,656 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-08-02 11:41:21,815 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-08-02 11:41:22,379 [ 1] INFO  Unity: Select Char:[1]1[Archer]
+2025-08-02 11:41:23,299 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
+2025-08-02 11:41:23,323 [ 1] INFO  Unity: OnGameEnter:Success [None]
+2025-08-02 11:41:23,324 [ 1] INFO  Unity: ItemManager:Init[Id:1,Count:202]
+2025-08-02 11:41:23,325 [ 1] INFO  Unity: ItemManager:Init[Id:2,Count:100]
+2025-08-02 11:41:23,325 [ 1] INFO  Unity: ItemManager:Init[Id:3,Count:30]
+2025-08-02 11:41:23,325 [ 1] INFO  Unity: ItemManager:Init[Id:4,Count:120]
+2025-08-02 11:41:23,326 [ 1] INFO  Unity: ItemManager:Init[Id:5,Count:1]
+2025-08-02 11:41:23,326 [ 1] INFO  Unity: ItemManager:Init[Id:6,Count:1]
+2025-08-02 11:41:23,327 [ 1] INFO  Unity: ItemManager:Init[Id:7,Count:1]
+2025-08-02 11:41:23,328 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
+2025-08-02 11:41:23,329 [ 1] INFO  Unity: AddCharacter:4:1 Map:1 Entity:(4:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2025-08-02 11:41:23,331 [ 1] INFO  Unity: LoadLevel: MainCity
+2025-08-02 11:41:23,589 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
 
-2025-07-31 12:23:32,933 [ 1] INFO  Unity: LevelLoadCompleted:1
-2025-07-31 12:23:35,699 [ 1] INFO  Unity: Character_2_¼ýÊÖA OnDestroy :ID:2 POS:(5000, 4000, 820) DIR:(100, 0, 0) SPD:0 
-2025-07-31 12:23:35,701 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2025-07-31 12:23:35,702 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2025-08-02 11:41:23,676 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-08-02 11:41:24,367 [ 1] INFO  Unity: SetDirection:(98, 19, 0)
+2025-08-02 11:41:24,368 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5000,4000,820) DIR:(98,19,0) SPD:0 
+2025-08-02 11:41:24,466 [ 1] INFO  Unity: SetDirection:(93, 37, 0)
+2025-08-02 11:41:24,466 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5000,4000,820) DIR:(93,37,0) SPD:0 
+2025-08-02 11:41:24,565 [ 1] INFO  Unity: SetDirection:(83, 55, 0)
+2025-08-02 11:41:24,565 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5000,4000,820) DIR:(83,55,0) SPD:0 
+2025-08-02 11:41:24,663 [ 1] INFO  Unity: SetDirection:(70, 71, 0)
+2025-08-02 11:41:24,664 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5000,4000,820) DIR:(70,71,0) SPD:0 
+2025-08-02 11:41:24,723 [ 1] INFO  Unity: MoveForward
+2025-08-02 11:41:24,724 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5000,4000,820) DIR:(70,71,0) SPD:300 
+2025-08-02 11:41:24,753 [ 1] INFO  Unity: SetDirection:(57, 82, 0)
+2025-08-02 11:41:24,753 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5008,4008,820) DIR:(57,82,0) SPD:300 
+2025-08-02 11:41:24,831 [ 1] INFO  Unity: SetDirection:(41, 91, 0)
+2025-08-02 11:41:24,832 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5023,4028,820) DIR:(41,91,0) SPD:300 
+2025-08-02 11:41:24,950 [ 1] INFO  Unity: SetDirection:(23, 97, 0)
+2025-08-02 11:41:24,951 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5037,4063,820) DIR:(23,97,0) SPD:300 
+2025-08-02 11:41:27,228 [ 1] INFO  Unity: SetDirection:(5, 100, 0)
+2025-08-02 11:41:27,228 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5173,4743,820) DIR:(5,100,0) SPD:300 
+2025-08-02 11:41:27,425 [ 1] INFO  Unity: SetDirection:(-12, 99, 0)
+2025-08-02 11:41:27,426 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5173,4803,820) DIR:(-12,99,0) SPD:300 
+2025-08-02 11:41:28,040 [ 1] INFO  Unity: SetPosition:(5177, 4967, 800)
+2025-08-02 11:41:28,040 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5177,4967,800) DIR:(-12,99,0) SPD:300 
+2025-08-02 11:41:28,327 [ 1] INFO  Unity: SetDirection:(-29, 96, 0)
+2025-08-02 11:41:28,327 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5160,5052,800) DIR:(-29,96,0) SPD:300 
+2025-08-02 11:41:28,475 [ 1] INFO  Unity: SetDirection:(-45, 89, 0)
+2025-08-02 11:41:28,475 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(5151,5097,800) DIR:(-45,89,0) SPD:300 
+2025-08-02 11:41:30,179 [ 1] INFO  Unity: SetPosition:(4923, 5550, 800)
+2025-08-02 11:41:30,179 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(4923,5550,800) DIR:(-45,89,0) SPD:300 
+2025-08-02 11:41:30,812 [ 1] INFO  Unity: Stop
+2025-08-02 11:41:30,812 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:4 POS:(4847,5702,800) DIR:(-45,89,0) SPD:0 
+2025-08-02 11:41:32,637 [ 1] INFO  Unity: SendBuyItem
+2025-08-02 11:41:32,664 [ 1] INFO  Unity: StatusNotify:[Item][Add]2:1
+2025-08-02 11:41:32,664 [ 1] INFO  Unity: StatusNotify:[Money][Delete]0:200
+2025-08-02 11:41:34,324 [ 1] INFO  Unity: SendBuyItem
+2025-08-02 11:41:34,344 [ 1] INFO  Unity: StatusNotify:[Item][Add]4:1
+2025-08-02 11:41:34,345 [ 1] INFO  Unity: StatusNotify:[Money][Delete]0:200
+2025-08-02 11:41:36,155 [ 1] INFO  Unity: SendBuyItem
+2025-08-02 11:41:36,175 [ 1] INFO  Unity: StatusNotify:[Item][Add]3:1
+2025-08-02 11:41:36,176 [ 1] INFO  Unity: StatusNotify:[Money][Delete]0:200
+2025-08-02 11:41:39,934 [ 1] INFO  Unity: Character_4_1 OnDestroy :ID:4 POS:(4847, 5702, 800) DIR:(-45, 89, 0) SPD:0 
+2025-08-02 11:41:39,936 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2025-08-02 11:41:39,936 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
