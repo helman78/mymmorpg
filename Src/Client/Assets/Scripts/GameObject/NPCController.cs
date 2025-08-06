@@ -22,11 +22,12 @@ public class NPCController : MonoBehaviour {
 		originColor = renderer.sharedMaterial.color;
 		npc = NPCManager.Instance.GetNPCDefine(this.npcID);
 		this.StartCoroutine(Actions());
-    }
+		UIWorldElementManager.Instance.AddNpcQuestStatus(this.transform, QuestManager.Instance.GetQuestStatusByNpc(npcID));
+	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
 	IEnumerator Actions()

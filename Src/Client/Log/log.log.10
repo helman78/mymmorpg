@@ -1,115 +1,45 @@
-2025-08-02 11:13:16,719 [ 1] INFO  Unity: LoadingManager start
-2025-08-02 11:13:18,735 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
+2025-08-06 19:17:08,719 [ 1] INFO  Unity: LoadingManager start
+2025-08-06 19:17:11,017 [ 1] WARN  Unity: BestFit is only supported for dynamic fonts. Font 'Numbers' is not dynamic.
 UnityEngine.Canvas:SendWillRenderCanvases()
 
-2025-08-02 11:13:19,734 [ 1] INFO  Unity: DataManager > DataManager()
-2025-08-02 11:13:23,681 [ 1] INFO  Unity: UserRegisterRequest::user :1 psw:1
-2025-08-02 11:13:23,682 [ 1] INFO  Unity: ConnectToServer() Start 
-2025-08-02 11:13:23,685 [ 1] INFO  Unity: DoConnect
-2025-08-02 11:13:23,686 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2025-08-02 11:13:23,688 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2025-08-06 19:17:15,612 [ 1] INFO  Unity: DataManager > DataManager()
+2025-08-06 19:17:53,883 [ 1] INFO  Unity: UserLoginRequest::user:1,psw:1
+2025-08-06 19:17:53,890 [ 1] INFO  Unity: ConnectToServer() Start 
+2025-08-06 19:17:53,900 [ 1] INFO  Unity: DoConnect
+2025-08-06 19:17:53,902 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2025-08-06 19:17:53,922 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2025-08-02 11:13:23,691 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2025-08-02 11:13:25,289 [ 1] INFO  Unity: OnUserRegister:Success [None]
-2025-08-02 11:13:27,169 [ 1] INFO  Unity: UserLoginRequest::user:1,psw:1
-2025-08-02 11:13:27,216 [ 1] INFO  Unity: OnUserLogin:Success [None]
-2025-08-02 11:13:27,218 [ 1] INFO  Unity: LoadLevel: CharSelect
-2025-08-02 11:13:27,377 [ 1] INFO  Unity: LevelLoadCompleted:1
-2025-08-02 11:13:29,693 [ 1] INFO  Unity: CharCreateRequest::charName:1,charClass:Archer
-2025-08-02 11:13:29,756 [ 1] INFO  Unity: OnCharCreate:Success [None]
-2025-08-02 11:13:29,757 [ 1] INFO  Unity: OnCreate
-2025-08-02 11:13:30,408 [ 1] INFO  Unity: Select Char:[0]1[Archer]
-2025-08-02 11:13:31,022 [ 1] INFO  Unity: UserGameEnterRequest::characterId:0
-2025-08-02 11:13:31,114 [ 1] INFO  Unity: OnGameEnter:Success [None]
-2025-08-02 11:13:31,121 [ 1] INFO  Unity: OnMapCharacterEnter:Map:1 Count:1
-2025-08-02 11:13:31,123 [ 1] INFO  Unity: AddCharacter:1:1 Map:1 Entity:(1:pos:(5000,4000,820),dir:(100,0,0),spd:0
-2025-08-02 11:13:31,125 [ 1] INFO  Unity: LoadLevel: MainCity
-2025-08-02 11:13:31,373 [ 1] WARN  Unity: No mesh data available for mesh Sphere001 on particle system fx_portal. Make sure Read/Write Enabled is set in the importer to work on the particle system renderer
+2025-08-06 19:17:53,933 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2025-08-06 19:17:54,164 [ 1] INFO  Unity: OnUserLogin:Success [None]
+2025-08-06 19:17:54,168 [ 1] INFO  Unity: LoadLevel: CharSelect
+2025-08-06 19:17:54,405 [ 1] INFO  Unity: LevelLoadCompleted:1
+2025-08-06 19:18:23,094 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{FormatException: Input string was not in the correct format, System.Int32.Parse (System.String s, NumberStyles style, IFormatProvider provider) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Int32.cs:640)
+System.Int32.Parse (System.String s, IFormatProvider provider) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Int32.cs:208)
+System.Convert.ToInt32 (System.String value, IFormatProvider provider) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Convert.cs:1277)
+System.String.System.IConvertible.ToInt32 (IFormatProvider provider) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/String.cs:2391)
+System.Convert.ToType (System.Object value, System.Type conversionType, IFormatProvider provider, Boolean try_target_to_type) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Convert.cs:2910)
+System.Convert.ChangeType (System.Object value, System.Type conversionType, IFormatProvider provider) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Convert.cs:2511)
+Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType)
+Rethrow as JsonSerializationException: Error converting value "ID" to type 'System.Int32'. Path '1.ID', line 3, position 9.
+Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType (Newtonsoft.Json.JsonReader reader, System.Object value, System.Globalization.CultureInfo culture, Newtonsoft.Json.Serialization.JsonContract contract, System.Type targetType)
+Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary (IDictionary dictionary, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonDictionaryContract contract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, System.String id)
+Rethrow as JsonSerializationException: Could not convert string 'ID' to dictionary key type 'System.Int32'. Create a TypeConverter to convert from the string to the key type object. Path '1.ID', line 3, position 9.
+Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary (IDictionary dictionary, Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Serialization.JsonDictionaryContract contract, Newtonsoft.Json.Serialization.JsonProperty containerProperty, System.String id)
+}</args></log4net.Error>
+2025-08-06 19:19:57,300 [ 1] WARN  Unity: Assets/Scripts/GameObject/MainPlayerCamera.cs(8,19): warning CS0108: `MainPlayerCamera.camera' hides inherited member `UnityEngine.Component.camera'. Use the new keyword if hiding was intended
 
-2025-08-02 11:13:31,460 [ 1] INFO  Unity: LevelLoadCompleted:1
-2025-08-02 11:13:32,497 [ 1] INFO  Unity: SetDirection:(98, 19, 0)
-2025-08-02 11:13:32,498 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(98,19,0) SPD:0 
-2025-08-02 11:13:32,596 [ 1] INFO  Unity: SetDirection:(93, 38, 0)
-2025-08-02 11:13:32,596 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(93,38,0) SPD:0 
-2025-08-02 11:13:32,695 [ 1] INFO  Unity: SetDirection:(83, 56, 0)
-2025-08-02 11:13:32,695 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(83,56,0) SPD:0 
-2025-08-02 11:13:32,774 [ 1] INFO  Unity: SetDirection:(72, 70, 0)
-2025-08-02 11:13:32,774 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(72,70,0) SPD:0 
-2025-08-02 11:13:32,873 [ 1] INFO  Unity: SetDirection:(56, 83, 0)
-2025-08-02 11:13:32,874 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(56,83,0) SPD:0 
-2025-08-02 11:13:32,962 [ 1] INFO  Unity: SetDirection:(41, 91, 0)
-2025-08-02 11:13:32,962 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(41,91,0) SPD:0 
-2025-08-02 11:13:33,061 [ 1] INFO  Unity: SetDirection:(22, 98, 0)
-2025-08-02 11:13:33,061 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(22,98,0) SPD:0 
-2025-08-02 11:13:33,200 [ 1] INFO  Unity: SetDirection:(4, 100, 0)
-2025-08-02 11:13:33,200 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(4,100,0) SPD:0 
-2025-08-02 11:13:33,833 [ 1] INFO  Unity: MoveForward
-2025-08-02 11:13:33,834 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4000,820) DIR:(4,100,0) SPD:300 
-2025-08-02 11:13:34,398 [ 1] INFO  Unity: SetDirection:(-14, 99, 0)
-2025-08-02 11:13:34,398 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(5000,4170,820) DIR:(-14,99,0) SPD:300 
-2025-08-02 11:13:34,517 [ 1] INFO  Unity: SetDirection:(-33, 94, 0)
-2025-08-02 11:13:34,517 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4993,4205,820) DIR:(-33,94,0) SPD:300 
-2025-08-02 11:13:34,615 [ 1] INFO  Unity: SetDirection:(-51, 86, 0)
-2025-08-02 11:13:34,616 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4981,4235,820) DIR:(-51,86,0) SPD:300 
-2025-08-02 11:13:34,744 [ 1] INFO  Unity: SetDirection:(-65, 76, 0)
-2025-08-02 11:13:34,745 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4957,4267,820) DIR:(-65,76,0) SPD:300 
-2025-08-02 11:13:35,537 [ 1] INFO  Unity: SetDirection:(-49, 87, 0)
-2025-08-02 11:13:35,537 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4816,4455,820) DIR:(-49,87,0) SPD:300 
-2025-08-02 11:13:35,635 [ 1] INFO  Unity: SetDirection:(-33, 94, 0)
-2025-08-02 11:13:35,636 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4804,4479,820) DIR:(-33,94,0) SPD:300 
-2025-08-02 11:13:35,813 [ 1] INFO  Unity: SetDirection:(-16, 99, 0)
-2025-08-02 11:13:35,814 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4782,4534,820) DIR:(-16,99,0) SPD:300 
-2025-08-02 11:13:38,906 [ 1] INFO  Unity: Stop
-2025-08-02 11:13:38,907 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4597,5459,820) DIR:(-16,99,0) SPD:0 
-2025-08-02 11:13:39,856 [ 1] INFO  Unity: SetDirection:(-35, 94, 0)
-2025-08-02 11:13:39,857 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4597,5459,820) DIR:(-35,94,0) SPD:0 
-2025-08-02 11:13:39,946 [ 1] INFO  Unity: MoveForward
-2025-08-02 11:13:39,946 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4597,5459,820) DIR:(-35,94,0) SPD:300 
-2025-08-02 11:13:39,956 [ 1] INFO  Unity: SetDirection:(-52, 85, 0)
-2025-08-02 11:13:39,956 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4595,5464,820) DIR:(-52,85,0) SPD:300 
-2025-08-02 11:13:40,045 [ 1] INFO  Unity: SetDirection:(-66, 75, 0)
-2025-08-02 11:13:40,045 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4580,5484,820) DIR:(-66,75,0) SPD:300 
-2025-08-02 11:13:40,124 [ 1] INFO  Unity: SetDirection:(-78, 62, 0)
-2025-08-02 11:13:40,124 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4565,5504,820) DIR:(-78,62,0) SPD:300 
-2025-08-02 11:13:40,222 [ 1] INFO  Unity: SetDirection:(-89, 45, 0)
-2025-08-02 11:13:40,223 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4541,5522,820) DIR:(-89,45,0) SPD:300 
-2025-08-02 11:13:40,362 [ 1] INFO  Unity: SetDirection:(-96, 27, 0)
-2025-08-02 11:13:40,362 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4509,5538,820) DIR:(-96,27,0) SPD:300 
-2025-08-02 11:13:41,095 [ 1] INFO  Unity: SetPosition:(4335, 5588, 800)
-2025-08-02 11:13:41,095 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4335,5588,800) DIR:(-96,27,0) SPD:300 
-2025-08-02 11:13:41,440 [ 1] INFO  Unity: SetDirection:(-100, 9, 0)
-2025-08-02 11:13:41,441 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(4230,5609,800) DIR:(-100,9,0) SPD:300 
-2025-08-02 11:13:43,015 [ 1] INFO  Unity: SetPosition:(3763, 5659, 800)
-2025-08-02 11:13:43,016 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3763,5659,800) DIR:(-100,9,0) SPD:300 
-2025-08-02 11:13:43,698 [ 1] INFO  Unity: Stop
-2025-08-02 11:13:43,698 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3558,5659,800) DIR:(-100,9,0) SPD:0 
-2025-08-02 11:13:44,480 [ 1] INFO  Unity: MoveForward
-2025-08-02 11:13:44,480 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3558,5659,800) DIR:(-100,9,0) SPD:300 
-2025-08-02 11:13:44,669 [ 1] INFO  Unity: SetDirection:(-96, 27, 0)
-2025-08-02 11:13:44,669 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3503,5659,800) DIR:(-96,27,0) SPD:300 
-2025-08-02 11:13:44,816 [ 1] INFO  Unity: SetDirection:(-90, 44, 0)
-2025-08-02 11:13:44,817 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3458,5668,800) DIR:(-90,44,0) SPD:300 
-2025-08-02 11:13:45,391 [ 1] INFO  Unity: Stop
-2025-08-02 11:13:45,391 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3288,5736,800) DIR:(-90,44,0) SPD:0 
-2025-08-02 11:13:47,979 [ 1] INFO  Unity: SendBuyItem
-2025-08-02 11:13:48,013 [ 1] INFO  Unity: StatusNotify:[Item][Add]1:200
-2025-08-02 11:13:48,014 [ 1] INFO  Unity: StatusNotify:[Item][Add]2:100
-2025-08-02 11:13:48,015 [ 1] INFO  Unity: StatusNotify:[Item][Add]3:30
-2025-08-02 11:13:48,015 [ 1] INFO  Unity: StatusNotify:[Item][Add]4:120
-2025-08-02 11:13:48,015 [ 1] INFO  Unity: StatusNotify:[Item][Add]5:1
-2025-08-02 11:13:48,016 [ 1] INFO  Unity: StatusNotify:[Money][Delete]0:200
-2025-08-02 11:14:01,216 [ 1] INFO  Unity: SetDirection:(-80, 60, 0)
-2025-08-02 11:14:01,216 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3288,5736,800) DIR:(-80,60,0) SPD:0 
-2025-08-02 11:14:01,383 [ 1] INFO  Unity: SetDirection:(-67, 74, 0)
-2025-08-02 11:14:01,384 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3288,5736,800) DIR:(-67,74,0) SPD:0 
-2025-08-02 11:14:01,483 [ 1] INFO  Unity: SetDirection:(-52, 85, 0)
-2025-08-02 11:14:01,484 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3288,5736,800) DIR:(-52,85,0) SPD:0 
-2025-08-02 11:14:01,623 [ 1] INFO  Unity: SetDirection:(-36, 93, 0)
-2025-08-02 11:14:01,623 [ 1] INFO  Unity: MapEntityUpdateRequest :ID:1 POS:(3288,5736,800) DIR:(-36,93,0) SPD:0 
-2025-08-02 11:14:05,476 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2025-08-02 11:14:05,476 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
-UnityEngine.Debug:LogWarning(Object)
-Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
-Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+2025-08-06 19:19:57,300 [ 1] WARN  Unity: Assets/Scripts/GameObject/NPCController.cs(13,22): warning CS0108: `NPCController.renderer' hides inherited member `UnityEngine.Component.renderer'. Use the new keyword if hiding was intended
 
-2025-08-02 11:14:05,478 [ 1] INFO  Unity: Character_1_1 OnDestroy :ID:1 POS:(3288, 5736, 800) DIR:(-36, 93, 0) SPD:0 
+2025-08-06 19:19:57,300 [ 1] WARN  Unity: Assets/Scripts/GameObject/EntityController.cs(20,16): warning CS0649: Field `EntityController.rotation' is never assigned to, and will always have its default value
+
+2025-08-06 19:19:57,300 [ 1] WARN  Unity: Assets/Scripts/GameObject/EntityController.cs(23,16): warning CS0414: The private field `EntityController.lastRotation' is assigned but its value is never used
+
+2025-08-06 19:19:57,300 [ 1] WARN  Unity: Assets/Scripts/GameObject/PlayerInputController.cs(111,11): warning CS0414: The private field `PlayerInputController.lastSync' is assigned but its value is never used
+
+2025-08-06 19:19:57,300 [ 1] WARN  Unity: Assets/Scripts/UI/QuestSystem/UIQuestItem.cs(20,10): warning CS0414: The private field `UIQuestItem.isEquiped' is assigned but its value is never used
+
+2025-08-06 19:19:57,301 [ 1] WARN  Unity: Assets/Scripts/UI/QuestSystem/UIQuestStatus.cs(10,25): warning CS0414: The private field `UIQuestStatus.questStatus' is assigned but its value is never used
+
+2025-08-06 19:19:57,301 [ 1] WARN  Unity: Assets/Editor/MapTools.cs(23,32): warning CS0219: The variable `allTeleporters' is assigned but its value is never used
+

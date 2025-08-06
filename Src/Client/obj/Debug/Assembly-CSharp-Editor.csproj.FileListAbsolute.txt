@@ -207,3 +207,4 @@ D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp-Editor
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp-Editor.dll
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp-Editor.pdb
+D:\MyProject\Unity Projects\mymmorpg\Src\Client\Temp\bin\Debug\Assembly-CSharp.pdb

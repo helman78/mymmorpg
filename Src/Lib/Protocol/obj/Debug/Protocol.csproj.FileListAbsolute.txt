@@ -6,4 +6,3 @@ D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Protocol\obj\Debug\Protocol.csproj.
 D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
 D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Protocol\obj\Debug\Protocol.dll
 D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Protocol\obj\Debug\Protocol.pdb
-D:\MyProject\Unity Projects\mymmorpg\Src\Lib\Protocol\obj\Debug\Protocol.csproj.AssemblyReference.cache
