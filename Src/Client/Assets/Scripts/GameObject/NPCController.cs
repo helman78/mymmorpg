@@ -21,7 +21,7 @@ public class NPCController : MonoBehaviour {
 		renderer = this.gameObject.GetComponentInChildren<SkinnedMeshRenderer>();
         anim = this.gameObject.GetComponent<Animator>();
 		originColor = renderer.sharedMaterial.color;
-		npc = NPCManager.Instance.GetNPCDefine(this.npcID);
+		npc = NpcManager.Instance.GetNPCDefine(this.npcID);
 		this.StartCoroutine(Actions());
         RefreshNPCStatus();
 		QuestManager.Instance.onQuestStatusChanged += OnQuestStatusChanged;
@@ -67,7 +67,7 @@ public class NPCController : MonoBehaviour {
 	IEnumerator DoInteractive()
     {
 		yield return FaceToPlayer();
-        if (NPCManager.Instance.Interactive(npc))
+        if (NpcManager.Instance.Interactive(npc))
         {
 			anim.SetTrigger("Talk");
         }

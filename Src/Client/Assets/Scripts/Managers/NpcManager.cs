@@ -6,7 +6,7 @@ using Common.Data;
 
 namespace Managers
 {
-    class NPCManager : Singleton<NPCManager>
+    class NpcManager : Singleton<NpcManager>
     {
         public delegate bool NPCActionHandler(NPCDefine npc);
         Dictionary<NpcFunction, NPCActionHandler> eventMap = new Dictionary<NpcFunction, NPCActionHandler>();

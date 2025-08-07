@@ -11,7 +11,7 @@ namespace Managers
     {
         public void Init()
         {
-            NPCManager.Instance.RegisterNPCEvent(NpcFunction.InvokeShop, OnOpenShop);
+            NpcManager.Instance.RegisterNPCEvent(NpcFunction.InvokeShop, OnOpenShop);
         }
         private bool OnOpenShop(NPCDefine npc)
         {
