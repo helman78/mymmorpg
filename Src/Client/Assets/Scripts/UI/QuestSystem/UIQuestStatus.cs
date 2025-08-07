@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class UIQuestStatus : MonoBehaviour {
 
 	public Image[] statusImages;
-	private NpcQuestStatus questStatus;
+	private NPCQuestStatus questStatus;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +19,7 @@ public class UIQuestStatus : MonoBehaviour {
 
 	}
 
-	public void SetQuestStatus(NpcQuestStatus status)
+	public void SetQuestStatus(NPCQuestStatus status)
     {
 		this.questStatus = status;
 		for(int i = 0; i < 4; i++)

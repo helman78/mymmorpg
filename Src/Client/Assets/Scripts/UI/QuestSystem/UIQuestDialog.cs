@@ -30,8 +30,17 @@ public class UIQuestDialog : UIWindow{
         }
         else
         {
-			openButtons.SetActive(false);
-			submitButtons.SetActive(false);
+			if(this.quest.Info.Status == SkillBridge.Message.QuestStatus.Complated)
+            {
+				openButtons.SetActive(false);
+				submitButtons.SetActive(true);
+			}
+            else
+            {
+				//出错
+				openButtons.SetActive(false);
+				submitButtons.SetActive(false);
+			}
         }
     }
 	void UpdateQuest()

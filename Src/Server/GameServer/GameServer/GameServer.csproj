@@ -106,6 +106,7 @@
     <Compile Include="Entities\Character.cs" />
     <Compile Include="Entities\CharacterBase.cs" />
     <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Managers\QuestManager.cs" />
     <Compile Include="Managers\ShopManager.cs" />
     <Compile Include="Managers\StatusManager.cs" />
     <Compile Include="Models\Item.cs" />
@@ -136,6 +137,7 @@
     <Compile Include="Services\HelloWorldService.cs" />
     <Compile Include="Services\ItemService.cs" />
     <Compile Include="Services\MapService.cs" />
+    <Compile Include="Services\QuestService.cs" />
     <Compile Include="Services\UserService.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Core\Vector3Int.cs" />
@@ -146,6 +148,9 @@
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
     <Compile Include="TCharacterItem.cs">
+      <DependentUpon>Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TCharacterQuest.cs">
       <DependentUpon>Entities.tt</DependentUpon>
     </Compile>
     <Compile Include="TPlayer.cs">

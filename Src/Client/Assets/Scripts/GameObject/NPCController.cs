@@ -14,6 +14,7 @@ public class NPCController : MonoBehaviour {
 	Animator anim;
 	Color originColor;
 	NPCDefine npc;
+	NPCQuestStatus questStatus;
 
 	// Use this for initialization
 	void Start () {
@@ -22,13 +23,24 @@ public class NPCController : MonoBehaviour {
 		originColor = renderer.sharedMaterial.color;
 		npc = NPCManager.Instance.GetNPCDefine(this.npcID);
 		this.StartCoroutine(Actions());
-		UIWorldElementManager.Instance.AddNpcQuestStatus(this.transform, QuestManager.Instance.GetQuestStatusByNpc(npcID));
+        RefreshNPCStatus();
+		QuestManager.Instance.onQuestStatusChanged += OnQuestStatusChanged;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-
-	}
+	void OnQuestStatusChanged()
+    {
+		this.RefreshNPCStatus();
+    }
+	void RefreshNPCStatus()
+    {
+		questStatus = QuestManager.Instance.GetQuestStatusByNpc(this.npcID);
+		UIWorldElementManager.Instance.AddNPCQuestStatus(this.transform, questStatus);
+    }
+	void OnDestory()
+    {
+		QuestManager.Instance.onQuestStatusChanged -= OnQuestStatusChanged;
+        if (UIWorldElementManager.Instance != null)
+			UIWorldElementManager.Instance.RemoveNPCQuestStatus(this.transform);
+    }
 
 	IEnumerator Actions()
     {

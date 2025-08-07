@@ -39,7 +39,7 @@ public class UIWorldElementManager : MonoSingleton<UIWorldElementManager> {
             this.elementNames.Remove(owner);
         }
     }
-    public void AddNpcQuestStatus(Transform owner, NpcQuestStatus status)
+    public void AddNPCQuestStatus(Transform owner, NPCQuestStatus status)
     {
         if (this.elementStatus.ContainsKey(owner))
         {
@@ -55,7 +55,7 @@ public class UIWorldElementManager : MonoSingleton<UIWorldElementManager> {
             this.elementStatus[owner] = go;
         }
     }
-    public void RemoveNpcQuestStatus(Transform owner)
+    public void RemoveNPCQuestStatus(Transform owner)
     {
         if (this.elementStatus.ContainsKey(owner))
         {

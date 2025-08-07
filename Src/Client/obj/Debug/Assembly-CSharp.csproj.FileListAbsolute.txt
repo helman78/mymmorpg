@@ -175,4 +175,4 @@ D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp.csproj
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp.dll
 D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp.pdb
-D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\MyProject\Unity Projects\mymmorpg\Src\Client\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache

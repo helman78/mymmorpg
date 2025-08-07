@@ -47,7 +47,7 @@ namespace Managers
         private bool DoTaskInteractive(NPCDefine npc)
         {
             var status = QuestManager.Instance.GetQuestStatusByNpc(npc.ID);
-            if (status == NpcQuestStatus.None)
+            if (status == NPCQuestStatus.None)
                 return false;
             return QuestManager.Instance.OpenNpcQuest(npc.ID);
         }

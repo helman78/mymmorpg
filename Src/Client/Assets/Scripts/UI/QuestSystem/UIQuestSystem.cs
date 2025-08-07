@@ -22,19 +22,19 @@ public class UIQuestSystem : UIWindow {
 		this.listBranch.onItemSelected += this.OnQuestSelected;
 		this.tabs.OnTabSelect += OnSelectTab;
         RefreshUI();
-		//QuestManager.Instance.OnQuestChanged += RefreshUI;
-	}
-	
-	void OnSelectTab(int idx)
+        QuestManager.Instance.onQuestStatusChanged += RefreshUI;
+    }
+
+    void OnSelectTab(int idx)
     {
 		showAvailableList = idx == 1;
 		RefreshUI();
     }
 	private void OnDestroy()
     {
-		//QuestManager.Instance.OnQuestChanged -= RefreshUI;
+        QuestManager.Instance.onQuestStatusChanged -= RefreshUI;
     }
-	void RefreshUI()
+    void RefreshUI()
     {
 		ClearAllQuestList();
 		InitAllQuestItems();
@@ -49,6 +49,9 @@ public class UIQuestSystem : UIWindow {
     {
 		foreach(var kv in QuestManager.Instance.allQuests)
         {
+            //如果任务已完成，则不显示
+            if (kv.Value.Info != null && kv.Value.Info.Status == SkillBridge.Message.QuestStatus.Finished)
+                continue;
             if (showAvailableList)
             {
 				if (kv.Value.Info != null)
