@@ -34,11 +34,11 @@ namespace Managers
         }
         public bool Interactive(NPCDefine npc)
         {
-            if(DoTaskInteractive(npc))
+            if (DoTaskInteractive(npc))
             {
                 return true;
             }
-            else if(npc.Type == NpcType.Functional)
+            else if (npc.Type == NpcType.Functional)
             {
                 return DoFunctionInteractive(npc);
             }
